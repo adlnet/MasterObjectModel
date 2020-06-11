@@ -50,13 +50,13 @@
     },
     {
       "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/curated",
+      "id": "https://w3id.org/xapi/tla/verbs/prioritized",
       "inScheme": "https://w3id.org/xapi/tla/v0.10",
       "prefLabel": {
-        "en": "curated"
+        "en": "prioritized"
       },
       "definition": {
-        "en": "Indicates the actor filtered goals associated with select content, usually listing what competencies are demonstrated in recently viewed content"
+        "en": "Indicates the actor has set a learning goal"
       }
     },
     {
@@ -773,7 +773,6 @@
         "en": "The order of recommendations within a curated or projected event"
       },
       "recommendedVerbs": [
-        "https://w3id.org/xapi/tla/verbs/curated",
         "https://w3id.org/xapi/tla/verbs/projected"
       ]
     }
@@ -1259,7 +1258,7 @@
         "en": "initialized"
       },
       "definition": {
-        "en": "Indicates that the activity was started"
+        "en": "Indicates that the activity was started."
       },
       "inScheme": "https://w3id.org/xapi/tla/v0.10",
       "verb": "https://adlnet.gov/expapi/verbs/initialized",
@@ -1392,16 +1391,16 @@
       ]
     },
     {
-      "id": "https://w3id.org/xapi/tla#curated",
+      "id": "https://w3id.org/xapi/tla#prioritized",
       "type": "StatementTemplate",
       "prefLabel": {
-        "en": "curated"
+        "en": "prioritized"
       },
       "definition": {
-        "en": "Indicates the actor filtered goals associated with select content, usually listing what competencies are demonstrated in recently viewed content"
+        "en": "Indicates the actor has set a learning goal"
       },
       "inScheme": "https://w3id.org/xapi/tla/v0.10",
-      "verb": "https://w3id.org/xapi/tla/verbs/curated",
+      "verb": "https://w3id.org/xapi/tla/verbs/prioritized",
       "rules": [
         {
           "location": "$.result.duration",
