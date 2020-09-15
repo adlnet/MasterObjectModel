@@ -1177,7 +1177,7 @@
           "location": "$.result.completion",
           "presence": "included",
           "all": [
-            "FALSE"
+            false
           ]
         },
         {
