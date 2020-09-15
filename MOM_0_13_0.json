@@ -918,7 +918,7 @@
           ]
         },
         {
-          "location": "$.context.ContextActivities",
+          "location": "$.context.contextActivities",
           "presence": "excluded"
         },
         {
@@ -1177,7 +1177,7 @@
           "location": "$.result.completion",
           "presence": "included",
           "all": [
-            "FALSE"
+            false
           ]
         },
         {
@@ -2960,7 +2960,7 @@
       "id": "https://w3id.org/xapi/tla#passed_session",
       "type": "Pattern",
       "prefLabel": {
-        "en": "completed session"
+        "en": "completed session - passed"
       },
       "inScheme": "https://w3id.org/xapi/tla/v0.10",
       "sequence": [
@@ -2975,7 +2975,7 @@
       "id": "https://w3id.org/xapi/tla#failed_session",
       "type": "Pattern",
       "prefLabel": {
-        "en": "completed session"
+        "en": "completed session - failed"
       },
       "inScheme": "https://w3id.org/xapi/tla/v0.10",
       "sequence": [
