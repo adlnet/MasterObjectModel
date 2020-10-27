@@ -285,7 +285,9 @@
       "definition": {
         "en": "Indicates an authoritative source changed a learner's competency assertions based on a valid competency framework change"
       },
-      "scopeNote": "Inferences change weighting in competency framework based on new longitudinal data (updates to Competency Management System)"
+      "scopeNote": {
+        "en": "Inferences change weighting in competency framework based on new longitudinal data (updates to Competency Management System)"
+      }
     },
     {
       "type": "Verb",
