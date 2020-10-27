@@ -923,8 +923,10 @@
         },
         {
           "location": "$.object.id",
+          
+          
           "presence": "included",
-          "scopeNotes": {
+          "scopeNote": {
             "en": "Each ObjectID needs to map to a unique piece of meta-data for the launched activity"
           }
         },
