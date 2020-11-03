@@ -2176,7 +2176,7 @@
           "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
           "presence": "included",
           "scopeNote": {
-            "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+            "en": "This should be the id of the xAPI statement(s) that resulted in this statement"
           }
         },
         {
