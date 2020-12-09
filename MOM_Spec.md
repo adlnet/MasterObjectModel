@@ -203,7 +203,7 @@ This Standard defines a set of controlled vocabulary and processes to be followe
 The purpose of this Standard is to allow the creation of interoperable xAPI instances across learning environments that adopt the TLA. This Standard uses a JSON encoding that is also conformant to the xAPI and xAPI Profile standards, which allows for interoperability and the exchange of xAPI data between all components of the TLA.
 
 ## Word usage
-The word _shall_ indicates mandatory requirements strictly to befollowed in order to conform to the standard and from which no deviation is permitted (shall equals is required to). [^1] [^2]
+The word _shall_ indicates mandatory requirements strictly to befollowed in order to conform to the standard and from which no deviation is permitted (shall equals is required to). <sup>[[1]](#foot-1)</sup> <sup>[[2]](#foot-2)</sup>
 
 The word _should_ indicates that among several possibilities one isrecommended as particularly suitable, without mentioning or excludingothers; or that a certain course of action is preferred but notnecessarily required (should equals is recommended that).
 
@@ -215,16 +215,13 @@ The word _can_ is used for statements of possibility and capability,whether mate
 
 The following referenced documents are indispensable for the application of this Standard. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments or corrigenda) applies.
 
-IEEE Std 9274.1.1, Experience API (xAPI) Standard. 3
+IEEE Std 9274.1.1, Experience API (xAPI) Standard. <sup>[[3]](#foot-3)</sup>
 
-IEEE Std 9274.3.1, Experience API (xAPI) Profile Standard.
-# 4
+IEEE Std 9274.3.1, Experience API (xAPI) Profile Standard. <sup>[[4]](#foot-4)</sup>
 
-Cmi5 Specification
-# 5
+Cmi5 Specification <sup>[[5]](#foot-5)</sup>
 
-RFC 8256: The JavaScript Object Notation (JSON) Data Interchange Format
-# 6
+RFC 8256: The JavaScript Object Notation (JSON) Data Interchange Format <sup>[[6]](#foot-6)</sup>
 
 # Definitions, acronyms, and abbreviations
 
@@ -232,10 +229,7 @@ Definitions and acronyms are defined in 3.1 and 3.2, respectively.
 
 ## Definitions
 
-For the purposes of this Standard, the following terms and definitions apply. _The_
-
-_Authoritative Dictionary of IEEE Standards Terms_ [B7]
-# 7
+For the purposes of this Standard, the following terms and definitions apply _The Authoritative Dictionary of IEEE Standards Terms_ <sup>[[7]](#foot-7)</sup>
  should be referenced for
 
 terms not defined in this clause.
@@ -1680,37 +1674,23 @@ The TLA has many functional requirements for each of the component systems withi
 
 **Figure 4 Leaning Record Provider States**
 
-[1](#sdfootnote1anc)
 
-The use of the word _must_ is deprecated and shall not be used when stating mandatory requirements, _must_ is used only to describe unavoidable situations.
+#Footers
+<a name="foot-1">[1]</a>:The use of the word _must_ is deprecated and shall not be used when stating mandatory requirements, _must_ is used only to describe unavoidable situations.
 
-[2](#sdfootnote2anc)
+<a name="foot-2">[2]</a>:The use of _will_ is deprecated and shall not be used when stating mandatory requirements, _will_ is only used in statements of fact.
 
-The use of _will_ is deprecated and shall not be used when stating mandatory requirements, _will_ is only used in statements of fact.
+<a name="foot-3">[3]</a>:IEEE publications are available from the Institute of Electrical and Electronics Engineers, Inc., 445 Hoes Lane, Piscataway, NJ 08854, USA ([https://standards.ieee.org/](http://standards.ieee.org/)).
 
-[3](#sdfootnote3anc)
+<a name="foot-4">[4]</a>:IEEE publications are available from the Institute of Electrical and Electronics Engineers, Inc., 445 Hoes Lane, Piscataway, NJ 08854, USA ([https://standards.ieee.org/](http://standards.ieee.org/)).
 
-IEEE publications are available from the Institute of Electrical and Electronics Engineers, Inc., 445 Hoes Lane, Piscataway, NJ 08854, USA ([https://standards.ieee.org/](http://standards.ieee.org/)).
+<a name="foot-5">[5]</a>:[https://github.com/AICC/CMI-5\_Spec\_Current/blob/quartz/cmi5\_spec.md](https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md)
 
-[4](#sdfootnote4anc)
+<a name="foot-6">[6]</a>:[https://tools.ietf.org/html/rfc8259](https://tools.ietf.org/html/rfc8259)
 
-IEEE publications are available from the Institute of Electrical and Electronics Engineers, Inc., 445 Hoes Lane, Piscataway, NJ 08854, USA ([https://standards.ieee.org/](http://standards.ieee.org/)).
+<a name="foot-7">[7]</a>:The numbers in brackets correspond to those of the bibliography in Annex A.
 
-[5](#sdfootnote5anc)
-
-[https://github.com/AICC/CMI-5\_Spec\_Current/blob/quartz/cmi5\_spec.md](https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md)
-
-[6](#sdfootnote6anc)
-
-[https://tools.ietf.org/html/rfc8259](https://tools.ietf.org/html/rfc8259)
-
-[7](#sdfootnote7anc)
-
-The numbers in brackets correspond to those of the bibliography in Annex A.
-
-[8](#sdfootnote8anc)
-
-Prior to IEEE Standardization of xAPI, the following requirement existed: _This shall be in the same time zone and format as the rest of the timestamps in this statement_
+<a name="foot-8">[8]</a>:Prior to IEEE Standardization of xAPI, the following requirement existed: _This shall be in the same time zone and format as the rest of the timestamps in this statement_
 
 Copyright © 2020 IEEE. All rights reserved.
 
