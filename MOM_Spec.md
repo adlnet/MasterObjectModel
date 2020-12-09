@@ -115,13 +115,13 @@ The purpose of this Standard is to allow the creation of semantically interopera
 
 # Contents
  - [Overview](./MOM_Spec.md#Overview)<a name="Overview"></a>
-      - Scope
-      - Purpose
-      - Word usage
- - Normative references
- - Definitions, acronyms, and abbreviations
-      - Definitions
-      - Acronyms and abbreviations
+      - [Scope](./MOM_Spec.md#Scope)<a name="Scope"></a>
+      - [Purpose](./MOM_Spec.md#Purpose)<a name="Purpose"></a>
+      - [Word usage](./MOM_Spec.md#WordUsage)<a name="WordUsage"></a>
+ - [Normative references](./MOM_Spec.md#NormativeReferences)<a name="NormativeReferences"></a>
+ - [Definitions, acronyms, and abbreviations](./MOM_Spec.md#DAaA)<a name="DAaA"></a>
+      - [Definitions](./MOM_Spec.md#Definitions)<a name="Definitions"></a>
+      - [Acronyms and abbreviations](./MOM_Spec.md#AaA)<a name="AaA"></a>
  - Conformance
       - TLA conformance level
       - TLA conformance level
@@ -197,12 +197,15 @@ The purpose of this Standard is to allow the creation of semantically interopera
 # Overview
 The scope and purpose of this Standard are discussed in 1.1 and 1.2.
 
+<a name="Scope"></a>
 ## Scope
 This Standard defines a set of controlled vocabulary and processes to be followed when the IEEE Standard xAPI (9274.1.1) is used in an environment categorized as conformant to the Total Learning Architecture. It provides a JSON binding of such data that is also conformant to the IEEE xAPI Profile Standard (9274.3.1). This standard defines the structure and constraints of JSON data in this environment. This standard may be used as an xAPI profile in that elements of this standard may be extracted and used in other profiles, or independent of a TLA-conformant technology.
 
+<a name="Purpose"></a>
 ## Purpose
 The purpose of this Standard is to allow the creation of interoperable xAPI instances across learning environments that adopt the TLA. This Standard uses a JSON encoding that is also conformant to the xAPI and xAPI Profile standards, which allows for interoperability and the exchange of xAPI data between all components of the TLA.
 
+<a name="WordUsage"></a>
 ## Word usage
 The word _shall_ indicates mandatory requirements strictly to befollowed in order to conform to the standard and from which no deviation is permitted (shall equals is required to). <sup>[[1]](#foot-1)</sup> <sup>[[2]](#foot-2)</sup>
 
@@ -212,8 +215,8 @@ The word _may_ is used to indicate a course of action permissible withinthe limi
 
 The word _can_ is used for statements of possibility and capability,whether material, physical, or causal (can equals is able to).
 
+<a name="NormativeReferences"></a>
 # Normative references
-
 The following referenced documents are indispensable for the application of this Standard. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments or corrigenda) applies.
 
 IEEE Std 9274.1.1, Experience API (xAPI) Standard. <sup>[[3]](#foot-3)</sup>
@@ -224,12 +227,12 @@ Cmi5 Specification <sup>[[5]](#foot-5)</sup>
 
 RFC 8256: The JavaScript Object Notation (JSON) Data Interchange Format <sup>[[6]](#foot-6)</sup>
 
+<a name="DAaA"></a>
 # Definitions, acronyms, and abbreviations
-
 Definitions and acronyms are defined in 3.1 and 3.2, respectively.
 
+<a name="Definitions"></a>
 ## Definitions
-
 For the purposes of this Standard, the following terms and definitions apply _The Authoritative Dictionary of IEEE Standards Terms_ <sup>[[7]](#foot-7)</sup>
  should be referenced for
 
@@ -267,6 +270,7 @@ terms not defined in this clause.
 
 **verb:** The most defining property in an xAPI statement – the &quot;action&quot; of the statement. A verb is an IRI, often shortened when being described, that uniquely identifies a tracked interaction.
 
+<a name="AaA"></a>
 ## Acronyms and abbreviations
 JSON – JavaScript Object Notation
 
