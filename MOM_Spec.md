@@ -130,8 +130,6 @@ TLA conformance level
 TLA conformance level
 TLA xAPI JSON-binding definition
 Statement data requirements
-Waived
-Launched
 Completed
 Passed
 Failed
@@ -205,7 +203,7 @@ This Standard defines a set of controlled vocabulary and processes to be followe
 The purpose of this Standard is to allow the creation of interoperable xAPI instances across learning environments that adopt the TLA. This Standard uses a JSON encoding that is also conformant to the xAPI and xAPI Profile standards, which allows for interoperability and the exchange of xAPI data between all components of the TLA.
 
 ## Word usage
-The word _shall_ indicates mandatory requirements strictly to befollowed in order to conform to the standard and from which no deviation is permitted (shall equals is required to). 1,2
+The word _shall_ indicates mandatory requirements strictly to befollowed in order to conform to the standard and from which no deviation is permitted (shall equals is required to). [^1] [^2]
 
 The word _should_ indicates that among several possibilities one isrecommended as particularly suitable, without mentioning or excludingothers; or that a certain course of action is preferred but notnecessarily required (should equals is recommended that).
 
@@ -217,8 +215,7 @@ The word _can_ is used for statements of possibility and capability,whether mate
 
 The following referenced documents are indispensable for the application of this Standard. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments or corrigenda) applies.
 
-IEEE Std 9274.1.1, Experience API (xAPI) Standard.
-# 3
+IEEE Std 9274.1.1, Experience API (xAPI) Standard. 3
 
 IEEE Std 9274.3.1, Experience API (xAPI) Profile Standard.
 # 4
