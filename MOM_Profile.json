@@ -11,7 +11,7 @@
   "conformsTo": "https://w3id.org/xapi/profiles#1.0",
   "versions": [
     {
-      "id": "https://w3id.org/xapi/tla/v0.10",
+      "id": "https://w3id.org/xapi/tla/v0.13",
       "generatedAtTime": "2019-07-19T14:25:59.295Z"
     }
   ],
