@@ -813,7 +813,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >Context:
 >>Extensions:
->>>"https://w3id.org/xapi/tla/extensions/due_date": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/due_date": RECOMMENDED <sup>[[8]](#foot-8)</sup>
 >>>>_shall be the date the object has to be completed_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
@@ -1675,7 +1675,8 @@ The TLA has many functional requirements for each of the component systems withi
 **Figure 4 Leaning Record Provider States**
 
 
-#Footers
+#Foot Notes
+
 <a name="foot-1">[1]</a>:The use of the word _must_ is deprecated and shall not be used when stating mandatory requirements, _must_ is used only to describe unavoidable situations.
 
 <a name="foot-2">[2]</a>:The use of _will_ is deprecated and shall not be used when stating mandatory requirements, _will_ is only used in statements of fact.
