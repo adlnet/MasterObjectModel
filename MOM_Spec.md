@@ -114,85 +114,86 @@ This Standard defines a set of controlled vocabulary and processes to be followe
 The purpose of this Standard is to allow the creation of semantically interoperable instances of learning data services exchanging xAPI across learning environments that adopt the TLA. This Standard uses a JSON encoding that is also conformant to the xAPI and xAPI Profile standards, which allows for interoperability and the exchange of xAPI data between all components of the TLA.
 
 # Contents
-Overview
-Scope
-Purpose
-Word usage
-Normative references
-Definitions, acronyms, and abbreviations
-Definitions
-Acronyms and abbreviations
-Conformance
-TLA conformance level
-TLA conformance level
-TLA conformance level
-TLA conformance level
-TLA conformance level
-TLA xAPI JSON-binding definition
-Statement data requirements
-Completed
-Passed
-Failed
-Satisfied
-Abandoned
-Terminated
-Initialized
-Recommended
-Prioritized
-Organized
-Projected
-Planned
-Deselected
-Requested
-Approved
-Augmented
-Explored
-Clarified
-Directed
-Scheduled
-Evaluated
-Tracked
-Surveyed
-Assessed
-Contextualized
-Located
-Socialized
-Captured
-Asserted
-Validated
-Inferred
-Qualified
-Certified
-Verified
-Conferred
-Recruited
-Appraised
-Detailed
-Mobilized
-Employed
-Schooled
-Promoted
-Screened
-Selected
-Transitioned
-Released
-Restricted
-LRS storage requirements
-TLA environment reporting requirements
-Competency management function
-Learning event management function
-Activity provider function
-Human capital management function
-Annex A40
-Annex B41
-Annex C44
-Annex D46
-Annex E47
+ - [Overview](./MOM_Spec.md#Overview)<a name="Overview"></a>
+ - Scope
+ - Purpose
+ - Word usage
+ - Normative references
+ - Definitions, acronyms, and abbreviations
+ - Definitions
+ - Acronyms and abbreviations
+ - Conformance
+ - TLA conformance level
+ - TLA conformance level
+ - TLA conformance level
+ - TLA conformance level
+ - TLA conformance level
+ - TLA xAPI JSON-binding definition
+ - Statement data requirements
+ - Completed
+ - Passed
+ - Failed
+ - Satisfied
+ - Abandoned
+ - Terminated
+ - Initialized
+ - Recommended
+ - Prioritized
+ - Organized
+ - Projected
+ - Planned
+ - Deselected
+ - Requested
+ - Approved
+ - Augmented
+ - Explored
+ - Clarified
+ - Directed
+ - Scheduled
+ - Evaluated
+ - Tracked
+ - Surveyed
+ - Assessed
+ - Contextualized
+ - Located
+ - Socialized
+ - Captured
+ - Asserted
+ - Validated
+ - Inferred
+ - Qualified
+ - Certified
+ - Verified
+ - Conferred
+ - Recruited
+ - Appraised
+ - Detailed
+ - Mobilized
+ - Employed
+ - Schooled
+ - Promoted
+ - Screened
+ - Selected
+ - Transitioned
+ - Released
+ - Restricted
+ - LRS storage requirements
+ - TLA environment reporting requirements
+ - Competency management function
+ - Learning event management function
+ - Activity provider function
+ - Human capital management function
+ - Annex A40
+ - Annex B41
+ - Annex C44
+ - Annex D46
+ - Annex E47
 
 ## IEEE Standard for Learning
  Technology—
  JavaScript Object Notation (JSON) Binding of Experience API (xAPI) Data for the Total Learning Architecture (TLA)
 
+<a name="Overview"></a>
 # Overview
 The scope and purpose of this Standard are discussed in 1.1 and 1.2.
 
