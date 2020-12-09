@@ -117,7 +117,7 @@ The purpose of this Standard is to allow the creation of semantically interopera
  - [Overview](./MOM_Spec.md#Overview)<a name="Overview"></a>
       - [Scope](./MOM_Spec.md#Scope)<a name="Scope"></a>
       - [Purpose](./MOM_Spec.md#Purpose)<a name="Purpose"></a>
-      - [Word usage](./MOM_Spec.md#WordUsage)<a name="WordUsage"></a>
+      - [Word usage](./MOM_Spec.md#Word Usage)<a name="WordUsage"></a>
  - [Normative references](./MOM_Spec.md#NormativeReferences)<a name="NormativeReferences"></a>
  - [Definitions, acronyms, and abbreviations](./MOM_Spec.md#DAaA)<a name="DAaA"></a>
       - [Definitions](./MOM_Spec.md#Definitions)<a name="Definitions"></a>
