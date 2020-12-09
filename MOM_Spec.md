@@ -115,74 +115,74 @@ The purpose of this Standard is to allow the creation of semantically interopera
 
 # Contents
  - [Overview](./MOM_Spec.md#Overview)<a name="Overview"></a>
- - Scope
- - Purpose
- - Word usage
+      - Scope
+      - Purpose
+      - Word usage
  - Normative references
  - Definitions, acronyms, and abbreviations
- - Definitions
- - Acronyms and abbreviations
+      - Definitions
+      - Acronyms and abbreviations
  - Conformance
- - TLA conformance level
- - TLA conformance level
- - TLA conformance level
- - TLA conformance level
- - TLA conformance level
+      - TLA conformance level
+      - TLA conformance level
+      - TLA conformance level
+      - TLA conformance level
+      - TLA conformance level
  - TLA xAPI JSON-binding definition
- - Statement data requirements
-      - Completed
- - Passed
- - Failed
- - Satisfied
- - Abandoned
- - Terminated
- - Initialized
- - Recommended
- - Prioritized
- - Organized
- - Projected
- - Planned
- - Deselected
- - Requested
- - Approved
- - Augmented
- - Explored
- - Clarified
- - Directed
- - Scheduled
- - Evaluated
- - Tracked
- - Surveyed
- - Assessed
- - Contextualized
- - Located
- - Socialized
- - Captured
- - Asserted
- - Validated
- - Inferred
- - Qualified
- - Certified
- - Verified
- - Conferred
- - Recruited
- - Appraised
- - Detailed
- - Mobilized
- - Employed
- - Schooled
- - Promoted
- - Screened
- - Selected
- - Transitioned
- - Released
- - Restricted
- - LRS storage requirements
- - TLA environment reporting requirements
- - Competency management function
- - Learning event management function
- - Activity provider function
- - Human capital management function
+      - Statement data requirements
+           - Completed
+           - Passed
+           - Failed
+           - Satisfied
+           - Abandoned
+           - Terminated
+           - Initialized
+           - Recommended
+           - Prioritized
+           - Organized
+           - Projected
+           - Planned
+           - Deselected
+           - Requested
+           - Approved
+           - Augmented
+           - Explored
+           - Clarified
+           - Directed
+           - Scheduled
+           - Evaluated
+           - Tracked
+           - Surveyed
+           - Assessed
+           - Contextualized
+           - Located
+           - Socialized
+           - Captured
+           - Asserted
+           - Validated
+           - Inferred
+           - Qualified
+           - Certified
+           - Verified
+           - Conferred
+           - Recruited
+           - Appraised
+           - Detailed
+           - Mobilized
+           - Employed
+           - Schooled
+           - Promoted
+           - Screened
+           - Selected
+           - Transitioned
+           - Released
+           - Restricted
+      - LRS storage requirements
+      - TLA environment reporting requirements
+           - Competency management function
+           - Learning event management function
+           - Activity provider function
+           - Human capital management function
  - Annex A40
  - Annex B41
  - Annex C44
