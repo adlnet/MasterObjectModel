@@ -130,7 +130,7 @@ The purpose of this Standard is to allow the creation of semantically interopera
  - TLA conformance level
  - TLA xAPI JSON-binding definition
  - Statement data requirements
- - Completed
+      - Completed
  - Passed
  - Failed
  - Satisfied
