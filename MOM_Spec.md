@@ -314,16 +314,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Launched
 >Verb:
 >>id: "https://adlnet.gov/expapi/verbs/launched",
+>>
 >>display: "launched",
+>>
 >>definition: "Indicates the user started a service. This does not always need to be a specific activity but can be a service provider as well."
 >
 >Object:
 >>id: "",
+>>
 >>objectType: Activity
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/competency"]
 >
 >Context:
@@ -332,83 +338,112 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Completed
 >Verb:
 >>id: "https://adlnet.gov/expapi/verbs/completed",
+>>
 >>display: "completed",
+>>
 >>definition: "Indicates the actor finished or concluded the activity normally"
 >
 >Object:
 >>id: "",
+>>
 >>objectType: Activity
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 >
 >Result:
 >>Success: RECOMMENDED
+>>
 >>Duration: RECOMMENDED
 
 ### Passed
 
 >Verb:
 >>id: "https://adlnet.gov/expapi/verbs/passed",
+>>
 >>display: "passed",
+>>
 >>definition: "Indicates the actor completed an activity to standard"
 >
 >Object:
 >>id: "",
+>>
 >>objectType: Activity
+>>
 >>definition:
 >>>type: "https://w3id.org/xapi/tla/activity-types/assessment"
 >
 >Result:
 >>Score:
 >>>Scaled: RECOMMENDED
+>>>
 >>>Success: TRUE
+>>>
 >>>Completion: TRUE
 
 ### Failed
 >Verb:
 >>id: "https://adlnet.gov/expapi/verbs/failed",
+>>
 >>display: "failed",
+>>
 >>definition: "Indicates the actor did not complete an activity to standard"
 >
 >Object:
 >>id: "",
+>>
 >>objectType: Activity
+>>
 >>definition:
 >>>type: "https://w3id.org/xapi/tla/activity-types/assessment"
 >
 >Result:
 >>Score:
 >>>Scaled: RECOMMENDED
+>>>
 >>>Success: FALSE
+>>>
 >>>Completion: TRUE
+
 ### Satisfied
 >Verb:
 >>id: "https://w3id.org/xapi/adl/verbs/satisfied",
+>>
 >>display: "satisfied",
+>>
 >>definition: "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity by means other than completing the activity"
 >
 >Object:
 >>id: "",
+>>
 >>objectType: Activity
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 
 ### Abandoned
 >Verb:
 >>id: "https://w3id.org/xapi/adl/verbs/abandoned",
+>>
 >>display: "abandoned",
+>>
 >>definition: "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)"
 >
 >Object:
 >>id: "",
+>>
 >>objectType: Activity
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 >
 >Result:
@@ -420,15 +455,20 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Terminated
 >Verb:
 >>id: "https://adlnet.gov/expapi/verbs/terminated",
+>>
 >>display: "terminated",
+>>
 >>definition: "Indicates the actor has completed their session normally"
 >
 >Object:
 >>id: "",
+>>
 >>objectType: Activity
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 >
 >Result:
@@ -440,15 +480,20 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Initialized
 >Verb:
 >>id: "https://adlnet.gov/expapi/verbs/initialized",
+>>
 >>display: "initialized",
+>>
 >>definition: "Indicates that the activity was started."
 >
 >Object:
 >>id: "",
+>>
 >>objectType: Activity
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 >
 >Result: EXCLUDED
@@ -456,20 +501,30 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Recommended
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/recommended",
+>>
 >>display: "recommended",
+>>
 >>definition: "Indicates the learner was given the recommendation to follow a career path, work towards a learning objective, or perform a learning activity by the actor"
 >
 >Object:
 >>id: "",
+>>
 >>objectType: INCLUDED
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/competency",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/activity",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/career",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/badge",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
 >Result: EXCLUDED
@@ -482,16 +537,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Prioritized
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/prioritized",
+>>
 >>display: "prioritized",
+>>
 >>definition: "Indicates the actor filtered goals associated with select content, usually listing what competencies are demonstrated in recently viewed content"
 >
 >Object:
 >>id: "",
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/competency",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/career",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/badge",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
 >Result: EXCLUDED
@@ -503,16 +564,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Organized
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/organized",
+>>
 >>display: "organized",
+>>
 >>definition: "Indicates the actor filtered content that aligns to specific goal"
 >
 >Object:
 >>id: "",
+>>
 >>objectType: INCLUDED
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
 >Result: EXCLUDED
@@ -524,11 +591,14 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Projected
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/projected",
+>>
 >>display: "projected",
+>>
 >>definition: "Indicates the actor was presented a list of goal recommendations over time, based on selected goal with recursive depth, what set of content can achieve mastery in the ordered sub-goals"
 >
 >Object:
 >>id: "",
+>>
 >>definition:
 >>>type: RECOMMENDED
 >
@@ -540,7 +610,9 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Planned
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/planned",
+>>
 >>display: "planned",
+>>
 >>definition: "Indicates that the actor assigned themselves a new learning goal, without needing approval"
 >
 >Object:
@@ -548,8 +620,11 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/competency",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/career",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/badge",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
 >Result: EXCLUDED
@@ -557,7 +632,9 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Deselected
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/deselected",
+>>
 >>display: "deselected",
+>>
 >>definition: "Indicates the actor removed specific goal or task"
 >
 >Object:
@@ -565,10 +642,15 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/career",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/badge",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/credential",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/job_duty_gig",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/competency",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
 >Extensions:
@@ -578,15 +660,20 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Requested
 >Verb:
 >>id: "https://w3id.org/xapi/adb/verbs/requested",
+>>
 >>display: "requested",
+>>
 >>definition: "Indicates the actor needed or demanded an object or another actor. Requested indicates a comment that is shared with peers as a group or Coach as a trainer. The request for coaching or help prompts users to respond giving them coaching credit"
 >
 >Object:
 >>id: "",
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
 >Result: EXCLUDED
@@ -594,7 +681,9 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Approved
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/approved",
+>>
 >>display: "approved",
+>>
 >>definition: "Indicates an OICS approved a requested activity for the given learner"
 >
 >Object:
@@ -604,7 +693,9 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
 >Result: EXCLUDED
@@ -617,15 +708,20 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Augmented
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/augmented",
+>>
 >>display: "augmented",
+>>
 >>definition: "Indicates the actor searched content on an active learning goal, viewing what other goals/branches can be related based on an active goal tree"
 >
 >Object:
 >>id: "",
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
 >Result: Excluded
@@ -638,16 +734,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Explored
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/explored",
+>>
 >>display: "explored",
+>>
 >>definition: "Indicates the actor searched active learning goals related to specific content, viewing what other content may trigger related goals, based on active goal and recently completed content"
 >
 >Object:
 >>id: "",
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/competency",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/career",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/badge",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
 >Result: EXCLUDED
@@ -659,16 +761,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Clarified
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/clarified",
+>>
 >>display: "clarified",
+>>
 >>definition: "Indicates the actor queried what other content may also reinforce the current learning goal, after completing content"
 >
 >Object:
 >>id: "",
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/competency",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/career",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/badge",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
 >Result: EXCLUDED
@@ -681,16 +789,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Directed
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/directed",
+>>
 >>display: "directed",
+>>
 >>definition: "Indicates the actor was assigned a learning goal by another party"
 >
 >Object:
 >>id: "",
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/competency",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/career",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/badge",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
 >Result: Excluded
@@ -703,15 +817,20 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Scheduled
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/scheduled",
+>>
 >>display: "scheduled",
+>>
 >>definition: "Indicates the actor scheduled an activity or lesson"
 >
 >Object:
 >>id: "",
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
 >Result: Excluded
@@ -727,15 +846,20 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Evaluated
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/evaluated",
+>>
 >>display: "evaluated",
+>>
 >>definition: "Indicates the learner(s) appeared in a Measure of Effectiveness (MOE) search"
 >
 >Object
 >>id: "",
+>>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
 >Result: Excluded
@@ -748,11 +872,14 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Tracked
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/tracked",
+>>
 >>display: "tracked",
+>>
 >>definition: "Indicates the learner(s) appeared in a competency search"
 >
 >Object:
 >>id: "",
+>>
 >>definition:
 >>>type: "https://w3id.org/xapi/tla/activity-types/competency"
 >
@@ -766,19 +893,26 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Surveyed
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/surveyed",
+>>
 >>display: "surveyed",
+>>
 >>definition: "Indicates the learner(s) appeared in a Measure of Performance (MOP) search"
 >
 >>Object:
+>>
 >>id: "",
 >>>_shall point to a node in the Competency Management System with type of MOP_
 >>
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/assessment",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/activity",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/career",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/badge",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
 >Result: EXCLUDED
@@ -791,20 +925,26 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Assessed
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/assessed"
+>>
 >>display: "assessed",
+>>
 >>definition: "Indicates the actor completed assessments in a way that will cause a change in their authoritative learner state"
 >
 >Object:
 >>id: "",
+>>
 >>definition:
 >>>type: "https://w3id.org/xapi/tla/activity-types/competency"
 >
 >Result:
 >>Duration: RECOMMENDED
+>>
 >>Completion: EXCLUDED
+>>
 >>Score:
 >>>Scaled: RECOMMENDED
->>>Success: INCLUDED
+>>>
+>>>>Success: INCLUDED
 >
 >Context:
 >>Extensions:
@@ -817,11 +957,13 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Contextualized
 >Verb:
 >>id: "https://w3id.org/xapi/tla/verbs/contextualized"
+>>
 >>display: "contextualized",
+>>
 >>definition: "Indicates the user performed several connected learning activities that should result in a change in their authoritative learner state"
 >
 >Object:
->>id: "",
+>>id: "",\
 >>definition:
 >>>type: https://w3id.org/xapi/tla/activity-types/competency
 >
