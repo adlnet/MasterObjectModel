@@ -1346,9 +1346,9 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Voided"></a>
 ### Voided
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/restricted"\
+>>**id:** "http://adlnet.gov/expapi/verbs/voided" \
 >>**display:** "restricted",\
->>**definition:** "Indicates OICS temporarily restricted the learner from some (possibly all) participation within the learning environment"
+>>**definition:** "Indicates that the actor has done something to void a previous event"
 >
 >**Object:**
 >>**id:** "",\
