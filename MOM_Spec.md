@@ -13,12 +13,12 @@
  - [Definitions, acronyms, and abbreviations](./MOM_Spec.md#DAaA)
       - [Definitions](./MOM_Spec.md#Definitions)
       - [Acronyms and abbreviations](./MOM_Spec.md#AaA)
- - Conformance
-      - TLA conformance level
-      - TLA conformance level
-      - TLA conformance level
-      - TLA conformance level
-      - TLA conformance level
+ - [Conformance](./MOM_Spec.md#Conformance)
+      - [TLA conformance level 1](./MOM_Spec.md#Level1)
+      - [TLA conformance level 2](./MOM_Spec.md#Level2)
+      - [TLA conformance level 3](./MOM_Spec.md#Level3)
+      - [TLA conformance level 4](./MOM_Spec.md#Level4)
+      - [TLA conformance level 5](./MOM_Spec.md#Level5)
  - TLA xAPI JSON-binding definition
       - Statement data requirements
            - Completed
@@ -175,9 +175,11 @@ TLA: Total Learning Architecture
 
 xAPI: Experience API
 
+<a name="Conformance"></a>
 # Conformance
 Conformance to this Standard is discussed in 4.1 through 4.5. Please see Section 1.3, Word Usage, to determine the nature of requirements found in this section. The TLA proscribes multiple levels of conformance. There are requirements for conformance that are both in scope and out of scope of this document. The requirements for xAPI data are listed in 4.1 through 4.5. It is expected that all TLA systems (LRS, LRP, etc.) follow the requirements appropriate to their function in a TLA environment.
 
+<a name="Level1"></a>
 ## TLA conformance level 1
 An instance of TLA level 1
 
@@ -195,6 +197,7 @@ An instance of TLA level 1
 - Shall send statements to their appropriate LRS as defined in 5.2
 - Should generate statements in appropriate systems as defined in 5.3
 
+<a name="Level2"></a>
 ## TLA conformance level 2
 An instance of TLA level 2
 
@@ -212,6 +215,7 @@ An instance of TLA level 2
 - Shall implement statements using the &quot;abandoned&quot; verb with all requirements fulfilled from 5.1.7
 - Shall implement statements using the &quot;terminated&quot; verb with all requirements fulfilled from 5.1.8
 
+<a name="Level3"></a>
 ## TLA conformance level 3
 An instance of TLA level 3
 
@@ -230,6 +234,7 @@ An instance of TLA level 3
 - Shall implement statements using the &quot;verified&quot; verb with all requirements fulfilled from 5.1.36
 - Shall implement statements using the &quot;conferred&quot; verb with all requirements fulfilled from 5.1.37
 
+<a name="Level4"></a>
 ## TLA conformance level 4
 An instance of TLA level 4
 
@@ -252,6 +257,7 @@ An instance of TLA level 4
 - Shall implement statements using the &quot;tracked&quot; verb with all requirements fulfilled from 5.1.25
 - Shall implement statements using the &quot;surveyed&quot; verb with all requirements fulfilled from 5.1.26
 
+<a name="Level5"></a>
 ## TLA conformance level 5
 An instance of TLA level 5
 
