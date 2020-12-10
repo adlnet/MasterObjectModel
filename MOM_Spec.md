@@ -41,7 +41,7 @@
            - [Augmented](./MOM_Spec.md#Augmented)
            - [Explored](./MOM_Spec.md#Explored)
            - [Clarified](./MOM_Spec.md#Clarified)
-           - [[Directed](./MOM_Spec.md#Directed)
+           - [Directed](./MOM_Spec.md#Directed)
            - [Scheduled](./MOM_Spec.md#Scheduled)
            - [Evaluated](./MOM_Spec.md#Evaluated)
            - [Tracked](./MOM_Spec.md#Tracked)
@@ -70,6 +70,7 @@
            - [Transitioned](./MOM_Spec.md#Transitioned)
            - [Released](./MOM_Spec.md#Released)
            - [Restricted](./MOM_Spec.md#Restricted)
+           - [Voided](./MOM_Spec.md#Voided)
       - [LRS storage requirements](./MOM_Spec.md#LRS-storage-requirements)
       - [TLA environment reporting requirements](./MOM_Spec.md#TLA-environment-reporting-requirements)
            - [Competency management function](./MOM_Spec.md#Competency-management-function)
@@ -929,7 +930,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >**Context:**
 >>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
->>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
+>>>>_shall be the id of the xAPI statement(s) that resulted in this statement_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
 >>>>_shall be a number between -1 and 1 displaying how likely the learner is to have mastered the competency, -1 being sure they have not, and 1 being certain they have_
@@ -1341,6 +1342,21 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_A
+
+<a name="Voided"></a>
+### Voided
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/restricted"\
+>>**display:** "restricted",\
+>>**definition:** "Indicates OICS temporarily restricted the learner from some (possibly all) participation within the learning environment"
+>
+>**Object:**
+>>**id:** "",\
+>>**objectType:** "StatementRef"
+>>>_shall be the statement that is being voided_
+>
+>**Result:** EXCLUDED
+
 
 <a name="LRS-storage-requirements"></a>
 ## LRS storage requirements
