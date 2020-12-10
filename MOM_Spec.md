@@ -1347,7 +1347,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 ### Voided
 >**Verb:**
 >>**id:** "http://adlnet.gov/expapi/verbs/voided" \
->>**display:** "restricted",\
+>>**display:** "voided",\
 >>**definition:** "Indicates that the actor has done something to void a previous event"
 >
 >**Object:**
