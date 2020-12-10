@@ -5,14 +5,14 @@
 **Keywords**: 9274.1.1, 9274.3.1, JavaScript Object Notation, JSON, Experience API, xAPI, Total Learning Architecture, TLA, Profile, xAPI Profile
 
 # Contents
- - [Overview](./MOM_Spec.md#Overview)<a name="Overview"></a>
-      - [Scope](./MOM_Spec.md#Scope)<a name="Scope"></a>
-      - [Purpose](./MOM_Spec.md#Purpose)<a name="Purpose"></a>
-      - [Word usage](./MOM_Spec.md#Word_usage)<a name="Word_usage"></a>
- - [Normative references](./MOM_Spec.md#NormativeReferences)<a name="NormativeReferences"></a>
- - [Definitions, acronyms, and abbreviations](./MOM_Spec.md#DAaA)<a name="DAaA"></a>
-      - [Definitions](./MOM_Spec.md#Definitions)<a name="Definitions"></a>
-      - [Acronyms and abbreviations](./MOM_Spec.md#AaA)<a name="AaA"></a>
+ - [Overview](./MOM_Spec.md#Overview)
+      - [Scope](./MOM_Spec.md#Scope)
+      - [Purpose](./MOM_Spec.md#Purpose)
+      - [Word usage](./MOM_Spec.md#Word-Usage)
+ - [Normative references](./MOM_Spec.md#Normative-References)
+ - [Definitions, acronyms, and abbreviations](./MOM_Spec.md#DAaA)
+      - [Definitions](./MOM_Spec.md#Definitions)
+      - [Acronyms and abbreviations](./MOM_Spec.md#AaA)
  - Conformance
       - TLA conformance level
       - TLA conformance level
@@ -96,7 +96,7 @@ This Standard defines a set of controlled vocabulary and processes to be followe
 ## Purpose
 The purpose of this Standard is to allow the creation of interoperable xAPI instances across learning environments that adopt the TLA. This Standard uses a JSON encoding that is also conformant to the xAPI and xAPI Profile standards, which allows for interoperability and the exchange of xAPI data between all components of the TLA.
 
-<a name="Word_usage"></a>
+<a name="Word-Usage"></a>
 ## Word usage
 The word _shall_ indicates mandatory requirements strictly to befollowed in order to conform to the standard and from which no deviation is permitted (shall equals is required to). <sup>[[1]](#foot-1)</sup> <sup>[[2]](#foot-2)</sup>
 
