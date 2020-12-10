@@ -19,66 +19,68 @@
       - [TLA conformance level 3](./MOM_Spec.md#Level3)
       - [TLA conformance level 4](./MOM_Spec.md#Level4)
       - [TLA conformance level 5](./MOM_Spec.md#Level5)
- - TLA xAPI JSON-binding definition
-      - Statement data requirements
-           - Completed
-           - Passed
-           - Failed
-           - Satisfied
-           - Abandoned
-           - Terminated
-           - Initialized
-           - Recommended
-           - Prioritized
-           - Organized
-           - Projected
-           - Planned
-           - Deselected
-           - Requested
-           - Approved
-           - Augmented
-           - Explored
-           - Clarified
-           - Directed
-           - Scheduled
-           - Evaluated
-           - Tracked
-           - Surveyed
-           - Assessed
-           - Contextualized
-           - Located
-           - Socialized
-           - Captured
-           - Asserted
-           - Validated
-           - Inferred
-           - Qualified
-           - Certified
-           - Verified
-           - Conferred
-           - Recruited
-           - Appraised
-           - Detailed
-           - Mobilized
-           - Employed
-           - Schooled
-           - Promoted
-           - Screened
-           - Selected
-           - Transitioned
-           - Released
-           - Restricted
-      - LRS storage requirements
-      - TLA environment reporting requirements
-           - Competency management function
-           - Learning event management function
-           - Activity provider function
-           - Human capital management function
- - Annex A40
- - Annex B41
- - Annex C44
- - Annex D46
- - Annex E47
+ - [TLA xAPI JSON-binding definition](./MOM_Spec.md#TLA-xAPI)
+      - [Statement data requirements](./MOM_Spec.md#Statement-data-requirements)
+           - [Waived](./MOM_Spec.md#Waived)
+           - [Launched](./MOM_Spec.md#Launched)
+           - [Completed](./MOM_Spec.md#Completed) 
+           - [Passed](./MOM_Spec.md#Passed)
+           - [Failed](./MOM_Spec.md#Failed)
+           - [Satisfied](./MOM_Spec.md#Satisfied)
+           - [Abandoned](./MOM_Spec.md#Abandoned)
+           - [Terminated](./MOM_Spec.md#Terminated)
+           - [Initialized](./MOM_Spec.md#Initialized)
+           - [Recommended](./MOM_Spec.md#Recommended)
+           - [Prioritized](./MOM_Spec.md#Prioritized)
+           - [Organized](./MOM_Spec.md#Organized)
+           - [Projected](./MOM_Spec.md#Projected)
+           - [Planned](./MOM_Spec.md#Planned)
+           - [Deselected](./MOM_Spec.md#Deselected)
+           - [Requested](./MOM_Spec.md#Requested)
+           - [Approved](./MOM_Spec.md#Approved)
+           - [Augmented](./MOM_Spec.md#Augmented)
+           - [Explored](./MOM_Spec.md#Explored)
+           - [Clarified](./MOM_Spec.md#Clarified)
+           - [[Directed](./MOM_Spec.md#Directed)
+           - [Scheduled](./MOM_Spec.md#Scheduled)
+           - [Evaluated](./MOM_Spec.md#Evaluated)
+           - [Tracked](./MOM_Spec.md#Tracked)
+           - [Surveyed](./MOM_Spec.md#Surveyed)
+           - [Assessed](./MOM_Spec.md#Assessed)
+           - [Contextualized](./MOM_Spec.md#Contextualized)
+           - [Located](./MOM_Spec.md#Located)
+           - [Socialized](./MOM_Spec.md#Socialized)
+           - [Captured](./MOM_Spec.md#Captured)
+           - [Asserted](./MOM_Spec.md#Asserted)
+           - [Validated](./MOM_Spec.md#Validated)
+           - [Inferred](./MOM_Spec.md#Inferred)
+           - [Qualified](./MOM_Spec.md#Qualified)
+           - [Certified](./MOM_Spec.md#Certified)
+           - [Verified](./MOM_Spec.md#Verified)
+           - [Conferred](./MOM_Spec.md#Conferred)
+           - [Recruited](./MOM_Spec.md#Recruited)
+           - [Appraised](./MOM_Spec.md#Appraised)
+           - [Detailed](./MOM_Spec.md#Detailed)
+           - [Mobilized](./MOM_Spec.md#Mobilized)
+           - [Employed](./MOM_Spec.md#Employed)
+           - [Schooled](./MOM_Spec.md#Schooled)
+           - [Promoted](./MOM_Spec.md#Promoted)
+           - [Screened](./MOM_Spec.md#Screened)
+           - [Selected](./MOM_Spec.md#Selected)
+           - [Transitioned](./MOM_Spec.md#Transitioned)
+           - [Released](./MOM_Spec.md#Released)
+           - [Restricted](./MOM_Spec.md#Restricted)
+      - [LRS storage requirements](./MOM_Spec.md#LRS-storage-requirements)
+      - [TLA environment reporting requirements](./MOM_Spec.md#TLA-environment-reporting-requirements)
+           - [Competency management function](./MOM_Spec.md#Competency-management-function)
+           - [Learning event management function](./MOM_Spec.md#Learning-event-management-function)
+           - [Activity provider function](./MOM_Spec.md#Activity-provider-function)
+           - [Human capital management function](./MOM_Spec.md#Human-capital-managementfunction)
+ - [Annex A](./MOM_Spec.md#A40)
+ - [Annex B](./MOM_Spec.md#B41)
+ - [Annex C](./MOM_Spec.md#C44)
+ - [Annex D](./MOM_Spec.md#D46)
+ - [Annex E](./MOM_Spec.md#E47)
 
 ## IEEE Standard for Learning
  Technology—
@@ -275,9 +277,11 @@ An instance of TLA level 5
 - Shall implement statements using the &quot;released&quot; verb with all requirements fulfilled from 5.1.48
 - Shall implement statements using the &quot;restricted&quot; verb with all requirements fulfilled from 5.1.49
 
+<a name="TLA-xAPI"></a>
 # TLA xAPI JSON-binding definition
 A TLA solution is &quot;learner-centric&quot;. This means all learner activity should be retrievable from any LRS (e.g. even those with minimally conformant behavior) through querying mechanism in the xAPI standard. This standard describes the reporting portion of a TLA solution, which decentralizing state management within the systems. Most of this management is done through use of xAPI statements. Any TLA data reporting that is not xAPI is beyond the scope of this specification. 5.1-5.3 describe the data requirements of xAPI statements within the TLA. A comprehensive description of use of TLA data can be found in Annex E.
 
+<a name="Statement-data-requirements"></a>
 ## Statement data requirements
 This section describes requirements for xAPI statements within the TLA. An xAPI statement has an actor, verb, and object, and other properties. A statement is from an authoritative source if and only if the authority property is traceable back to the statement provider.
 
@@ -292,778 +296,664 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 
 **Note:** Any property listed in a template with a specific value (including booleans) shall retain that value in a statement created that follows the template. In properties where there is not a specific value, these templates contain in capital letters requirements that shall be followed. These requirements are not &quot;shall&quot;, &quot;should&quot;, or &quot;shall not&quot;, but should be translated as such. The use of &quot;RECOMMENDED&quot; in the template indicates a &quot;should&quot; requirement. The use of &quot;EXCLUDED&quot; in the template indicates a &quot;shall not&quot; requirement. The use of &quot;REQUIRED&quot; in the template indicates a &quot;shall&quot; requirement. These requirements may be accompanied by explanatory text and/or other requirements on the data. Use of brackets indicates a choice of one or more of the elements within the bracket.
 
+<a name="Waived"></a>
 ### Waived
->Verb:
->>id: "https://w3id.org/xapi/adl/verbs/waived",
->>display: "waived",
->>
->>definition: "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor."
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/adl/verbs/waived",\
+>>**display:** "waived",\
+>>**definition:** "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor."
 >
->Object:
->>id: "",
->>objectType: Activity
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**objectType:** Activity\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
 >>>>"https://w3id.org/xapi/tla/activity-types/competency"]
 
-
+<a name="Launched"></a>
 ### Launched
->Verb:
->>id: "https://adlnet.gov/expapi/verbs/launched",
->>
->>display: "launched",
->>
->>definition: "Indicates the user started a service. This does not always need to be a specific activity but can be a service provider as well."
+>**Verb:**
+>>**id:** "https://adlnet.gov/expapi/verbs/launched",\
+>>**display:** "launched",\
+>>**definition:** "Indicates the user started a service. This does not always need to be a specific activity but can be a service provider as well."
 >
->Object:
->>id: "",
->>
->>objectType: Activity
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**objectType:** Activity\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
 >>>>"https://w3id.org/xapi/tla/activity-types/competency"]
 >
->Context:
->>Context Activities: EXCLUDED
+>**Context:**
+>>**Context Activities:** EXCLUDED
 
+<a name="Completed"></a>
 ### Completed
->Verb:
->>id: "https://adlnet.gov/expapi/verbs/completed",
->>
->>display: "completed",
->>
->>definition: "Indicates the actor finished or concluded the activity normally"
+>**Verb:**
+>>**id:** "https://adlnet.gov/expapi/verbs/completed",\
+>>**display:** "completed",\
+>>**definition:** "Indicates the actor finished or concluded the activity normally"
 >
->Object:
->>id: "",
->>
->>objectType: Activity
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**objectType:** Activity\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity",\
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 >
->Result:
->>Success: RECOMMENDED
->>
->>Duration: RECOMMENDED
+>**Result:**
+>>**Success:** RECOMMENDED\
+>>**Duration:** RECOMMENDED
 
+<a name="Passed"></a>
 ### Passed
-
->Verb:
->>id: "https://adlnet.gov/expapi/verbs/passed",
->>
->>display: "passed",
->>
->>definition: "Indicates the actor completed an activity to standard"
+>**Verb:**
+>>**id:** "https://adlnet.gov/expapi/verbs/passed",\
+>>**display:** "passed",\
+>>**definition:** "Indicates the actor completed an activity to standard"
 >
->Object:
->>id: "",
->>
->>objectType: Activity
->>
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/assessment"
+>**Object:**
+>>**id:** "",\
+>>**objectType:** Activity\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/assessment"
 >
->Result:
->>Score:
->>>Scaled: RECOMMENDED
->>>
->>>Success: TRUE
->>>
->>>Completion: TRUE
+>**Result:**
+>>**Score:**:
+>>>**Scaled:**: RECOMMENDED\
+>>>**Success:** TRUE\
+>>>**Completion:** TRUE
 
+<a name="Failed"></a>
 ### Failed
->Verb:
->>id: "https://adlnet.gov/expapi/verbs/failed",
->>
->>display: "failed",
->>
->>definition: "Indicates the actor did not complete an activity to standard"
+>**Verb:**
+>>**id:** "https://adlnet.gov/expapi/verbs/failed",\
+>>**display:** "failed",\
+>>**definition:** "Indicates the actor did not complete an activity to standard"
 >
->Object:
->>id: "",
->>
->>objectType: Activity
->>
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/assessment"
+>**Object:**
+>>**id:** "",\
+>>**objectType:** Activity\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/assessment"
 >
->Result:
->>Score:
->>>Scaled: RECOMMENDED
->>>
->>>Success: FALSE
->>>
->>>Completion: TRUE
+>**Result:**
+>>**Score:**:
+>>>**Scaled:**: RECOMMENDED\
+>>>**Success:** FALSE\
+>>>**Completion:** TRUE
 
+<a name="Satisfied"></a>
 ### Satisfied
->Verb:
->>id: "https://w3id.org/xapi/adl/verbs/satisfied",
->>
->>display: "satisfied",
->>
->>definition: "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity by means other than completing the activity"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/adl/verbs/satisfied",\
+>>**display:** "satisfied",\
+>>**definition:** "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity by means other than completing the activity"
 >
->Object:
->>id: "",
->>
->>objectType: Activity
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**objectType:** Activity\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity",\
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 
+<a name="Abandoned"></a>
 ### Abandoned
->Verb:
->>id: "https://w3id.org/xapi/adl/verbs/abandoned",
->>
->>display: "abandoned",
->>
->>definition: "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/adl/verbs/abandoned",\
+>>**display:** "abandoned",\
+>>**definition:** "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)"
 >
->Object:
->>id: "",
->>
->>objectType: Activity
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**objectType:** Activity\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity",\
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 >
->Result:
->>Duration: RECOMMENDED
+>**Result:**
+>>**Duration:** RECOMMENDED
 >>>_The duration property should, at a minimum, be set as the total session time, calculated as the time between the "launched" statement and the last statement (of any kind) issued by the exercise. Implementers should also use other (software specific) methods (if available) to determine if the total session time was longer._
 >>
->>Completion: FALSE
+>>**Completion:** FALSE
 
+<a name="Terminated"></a>
 ### Terminated
->Verb:
->>id: "https://adlnet.gov/expapi/verbs/terminated",
->>
->>display: "terminated",
->>
->>definition: "Indicates the actor has completed their session normally"
+>**Verb:**
+>>**id:** "https://adlnet.gov/expapi/verbs/terminated",\
+>>**display:** "terminated",\
+>>**definition:** "Indicates the actor has completed their session normally"
 >
->Object:
->>id: "",
->>
->>objectType: Activity
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**objectType:** Activity\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity",\
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 >
->Result:
->>Duration: RECOMMENDED
+>**Result:**
+>>**Duration:** RECOMMENDED
 >>>_The duration property should, at a minimum, be set as the total session time, calculated as the time between the &#39;launched&#39; statement and the last statement (of any kind) issued by the exercise. Implementers should also use other (software specific) methods (if available) to determine if the total session time was longer._
 >>
->>Completion: FALSE
+>>**Completion:** FALSE
 
+<a name="Initialized"></a>
 ### Initialized
->Verb:
->>id: "https://adlnet.gov/expapi/verbs/initialized",
->>
->>display: "initialized",
->>
->>definition: "Indicates that the activity was started."
+>**Verb:**
+>>**id:** "https://adlnet.gov/expapi/verbs/initialized",\
+>>**display:** "initialized",\
+>>**definition:** "Indicates that the activity was started."
 >
->Object:
->>id: "",
->>
->>objectType: Activity
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**objectType:** Activity\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity",\
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 
+<a name="Recommended"></a>
 ### Recommended
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/recommended",
->>
->>display: "recommended",
->>
->>definition: "Indicates the learner was given the recommendation to follow a career path, work towards a learning objective, or perform a learning activity by the actor"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/recommended",\
+>>**display:** "recommended",\
+>>**definition:** "Indicates the learner was given the recommendation to follow a career path, work towards a learning objective, or perform a learning activity by the actor"
 >
->Object:
->>id: "",
->>
->>objectType: INCLUDED
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/competency",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/activity",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/career",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/badge",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**objectType:** INCLUDED\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
+>>>>"https://w3id.org/xapi/tla/activity-types/competency",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
+>>>>"https://w3id.org/xapi/tla/activity-types/activity",\
+>>>>"https://w3id.org/xapi/tla/activity-types/career",\
+>>>>"https://w3id.org/xapi/tla/activity-types/badge",\
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Prioritized"></a>
 ### Prioritized
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/prioritized",
->>
->>display: "prioritized",
->>
->>definition: "Indicates the actor filtered goals associated with select content, usually listing what competencies are demonstrated in recently viewed content"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/prioritized",\
+>>**display:** "prioritized",\
+>>**definition:** "Indicates the actor filtered goals associated with select content, usually listing what competencies are demonstrated in recently viewed content"
 >
->Object:
->>id: "",
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/competency",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/career",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/badge",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/competency",\
+>>>>"https://w3id.org/xapi/tla/activity-types/career",\
+>>>>"https://w3id.org/xapi/tla/activity-types/badge",\
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
->Result: EXCLUDED
->>Context:
->>>Extensions:
+>**Result:** EXCLUDED
+>>**Context:**
+>>>**Extensions:**
 >>>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>>_This will be an array of the activities that were used in the query_
 
+<a name="Organized"></a>
 ### Organized
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/organized",
->>
->>display: "organized",
->>
->>definition: "Indicates the actor filtered content that aligns to specific goal"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/organized",\
+>>**display:** "organized",\
+>>**definition:** "Indicates the actor filtered content that aligns to specific goal"
 >
->Object:
->>id: "",
->>
->>objectType: INCLUDED
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**objectType:** INCLUDED\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
->Result: EXCLUDED
->>Context:
->>>Extensions:
+>**Result:** EXCLUDED
+>>**Context:**
+>>>**Extensions:**
 >>>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>>_This will be an array of the viewed/completed Competencies_
 
+<a name="Projected"></a>
 ### Projected
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/projected",
->>
->>display: "projected",
->>
->>definition: "Indicates the actor was presented a list of goal recommendations over time, based on selected goal with recursive depth, what set of content can achieve mastery in the ordered sub-goals"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/projected",\
+>>**display:** "projected",\
+>>**definition:** "Indicates the actor was presented a list of goal recommendations over time, based on selected goal with recursive depth, what set of content can achieve mastery in the ordered sub-goals"
 >
->Object:
->>id: "",
->>
->>definition:
->>>type: RECOMMENDED
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** RECOMMENDED
 >
->Result:
->>Extensions:
+>**Result:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/recommendation_order": INCLUDED
 >>>>_This is an array of just activity recommendations statement references, in the order they were provided_
 
+<a name="Planned"></a>
 ### Planned
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/planned",
->>
->>display: "planned",
->>
->>definition: "Indicates that the actor assigned themselves a new learning goal, without needing approval"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/planned",\
+>>**display:** "planned",\
+>>**definition:** "Indicates that the actor assigned themselves a new learning goal, without needing approval"
 >
->Object:
->>id: "",
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/competency",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/career",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/badge",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/competency",\
+>>>>"https://w3id.org/xapi/tla/activity-types/career",\
+>>>>"https://w3id.org/xapi/tla/activity-types/badge",\
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 
+<a name="Deselected"></a>
 ### Deselected
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/deselected",
->>
->>display: "deselected",
->>
->>definition: "Indicates the actor removed specific goal or task"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/deselected",\
+>>**display:** "deselected",\
+>>**definition:** "Indicates the actor removed specific goal or task"
 >
->Object:
->>id: "",
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/career",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/badge",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/credential",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/job_duty_gig",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/competency",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/career",\
+>>>>"https://w3id.org/xapi/tla/activity-types/badge",\
+>>>>"https://w3id.org/xapi/tla/activity-types/credential",\
+>>>>"https://w3id.org/xapi/tla/activity-types/job_duty_gig",\
+>>>>"https://w3id.org/xapi/tla/activity-types/competency",\
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
->Extensions:
+>**Extensions:**
 >>"https://w3id.org/xapi/tla/extensions/instance": recommended
 >>>_shall be a pointer to the instance of the goal within the learner profile_
 
+<a name="Requested"></a>
 ### Requested
->Verb:
->>id: "https://w3id.org/xapi/adb/verbs/requested",
->>
->>display: "requested",
->>
->>definition: "Indicates the actor needed or demanded an object or another actor. Requested indicates a comment that is shared with peers as a group or Coach as a trainer. The request for coaching or help prompts users to respond giving them coaching credit"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/adb/verbs/requested",\
+>>**display:** "requested",\
+>>**definition:** "Indicates the actor needed or demanded an object or another actor. Requested indicates a comment that is shared with peers as a group or Coach as a trainer. The request for coaching or help prompts users to respond giving them coaching credit"
 >
->Object:
->>id: "",
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 
+<a name="Approved"></a>
 ### Approved
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/approved",
->>
->>display: "approved",
->>
->>definition: "Indicates an OICS approved a requested activity for the given learner"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/approved",\
+>>**display:** "approved",\
+>>**definition:** "Indicates an OICS approved a requested activity for the given learner"
 >
->Object:
->>id: "",
+>**Object:**
+>>**id:** "",
 >>>_SHOULD be ID of "Requested" Statement being approved_
 >>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
->>>>
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Augmented"></a>
 ### Augmented
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/augmented",
->>
->>display: "augmented",
->>
->>definition: "Indicates the actor searched content on an active learning goal, viewing what other goals/branches can be related based on an active goal tree"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/augmented",\
+>>**display:** "augmented",\
+>>**definition:** "Indicates the actor searched content on an active learning goal, viewing what other goals/branches can be related based on an active goal tree"
 >
->Object:
->>id: "",
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
->Result: Excluded
+>**Result:** Excluded
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence:: INCLUDED
 >>>>_should be a resolvable identifier to the learning goal(s) used for this augmented event, but is open-ended to allow future mechanisms_
 
+<a name="Explored"></a>
 ### Explored
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/explored",
->>
->>display: "explored",
->>
->>definition: "Indicates the actor searched active learning goals related to specific content, viewing what other content may trigger related goals, based on active goal and recently completed content"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/explored",\
+>>**display:** "explored",\
+>>**definition:** "Indicates the actor searched active learning goals related to specific content, viewing what other content may trigger related goals, based on active goal and recently completed content"
 >
->Object:
->>id: "",
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/competency",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/career",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/badge",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/competency",\
+>>>>"https://w3id.org/xapi/tla/activity-types/career",\
+>>>>"https://w3id.org/xapi/tla/activity-types/badge",\
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
->Result: EXCLUDED
->>Context:
->>>Extensions:
+>**Result:** EXCLUDED
+>>**Context:**
+>>>**Extensions:**
 >>>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>>_should be a resolvable identifier to the learning goal(s) used for this explored event, but is open-ended to allow future mechanisms_
 
+<a name="Clarified"></a>
 ### Clarified
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/clarified",
->>
->>display: "clarified",
->>
->>definition: "Indicates the actor queried what other content may also reinforce the current learning goal, after completing content"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/clarified",\
+>>**display:** "clarified",\
+>>**definition:** "Indicates the actor queried what other content may also reinforce the current learning goal, after completing content"
 >
->Object:
->>id: "",
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/competency",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/career",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/badge",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/competency",\
+>>>>"https://w3id.org/xapi/tla/activity-types/career",\
+>>>>"https://w3id.org/xapi/tla/activity-types/badge",\
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>_should be a resolvable identifier to the content and goal(s) used for this clarified event, but is open-ended to allow future mechanisms_
 
+<a name="Directed"></a>
 ### Directed
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/directed",
->>
->>display: "directed",
->>
->>definition: "Indicates the actor was assigned a learning goal by another party"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/directed",\
+>>**display:** "directed",\
+>>**definition:** "Indicates the actor was assigned a learning goal by another party"
 >
->Object:
->>id: "",
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/competency",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/career",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/badge",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/competency",\
+>>>>"https://w3id.org/xapi/tla/activity-types/career",\
+>>>>"https://w3id.org/xapi/tla/activity-types/badge",\
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
->Result: Excluded
+>**Result:** Excluded
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Scheduled"></a>
 ### Scheduled
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/scheduled",
->>
->>display: "scheduled",
->>
->>definition: "Indicates the actor scheduled an activity or lesson"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/scheduled",\
+>>**display:** "scheduled",\
+>>**definition:** "Indicates the actor scheduled an activity or lesson"
 >
->Object:
->>id: "",
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
->Result: Excluded
+>**Result:** Excluded
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/due_date": RECOMMENDED <sup>[[8]](#foot-8)</sup>
 >>>>_shall be the date the object has to be completed_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Evaluated"></a>
 ### Evaluated
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/evaluated",
->>
->>display: "evaluated",
->>
->>definition: "Indicates the learner(s) appeared in a Measure of Effectiveness (MOE) search"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/evaluated",\
+>>**display:** "evaluated",\
+>>**definition:** "Indicates the learner(s) appeared in a Measure of Effectiveness (MOE) search"
 >
->Object
->>id: "",
->>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
->>>>
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
->Result: Excluded
+>**Result:** Excluded
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Tracked"></a>
 ### Tracked
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/tracked",
->>
->>display: "tracked",
->>
->>definition: "Indicates the learner(s) appeared in a competency search"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/tracked",\
+>>**display:** "tracked",\
+>>**definition:** "Indicates the learner(s) appeared in a competency search"
 >
->Object:
->>id: "",
->>
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/competency"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/competency"
 >
->Result: Excluded
+>**Result:** Excluded
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Surveyed"></a>
 ### Surveyed
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/surveyed",
->>
->>display: "surveyed",
->>
->>definition: "Indicates the learner(s) appeared in a Measure of Performance (MOP) search"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/surveyed",\
+>>**display:** "surveyed",\
+>>**definition:** "Indicates the learner(s) appeared in a Measure of Performance (MOP) search"
 >
->>Object:
->>
->>id: "",
+>>**Object:**\
+>>**id:** "",
 >>>_shall point to a node in the Competency Management System with type of MOP_
 >>
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/assessment",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/activity",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/career",
->>>>
->>>>"https://w3id.org/xapi/tla/activity-types/badge",
->>>>
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/assessment",\
+>>>>"https://w3id.org/xapi/tla/activity-types/activity",\
+>>>>"https://w3id.org/xapi/tla/activity-types/career",\
+>>>>"https://w3id.org/xapi/tla/activity-types/badge",\
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Assessed"></a>
 ### Assessed
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/assessed"
->>
->>display: "assessed",
->>
->>definition: "Indicates the actor completed assessments in a way that will cause a change in their authoritative learner state"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/assessed"\
+>>**display:** "assessed",\
+>>**definition:** "Indicates the actor completed assessments in a way that will cause a change in their authoritative learner state"
 >
->Object:
->>id: "",
->>
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/competency"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/competency"
 >
->Result:
->>Duration: RECOMMENDED
->>
->>Completion: EXCLUDED
->>
->>Score:
->>>Scaled: RECOMMENDED
->>>
->>>>Success: INCLUDED
+>**Result:**
+>>**Duration:** RECOMMENDED\
+>>**Completion:** EXCLUDED\
+>>**Score:**:
+>>>**Scaled:**: RECOMMENDED\
+>>>>**Success:** INCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
 >>>>_shall be a number between -1 and 1 displaying how likely the learner is to have mastered the assessed competency, -1 being sure they have not, and 1 being certain they have_
 
+<a name="Contextualized"></a>
 ### Contextualized
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/contextualized"
->>
->>display: "contextualized",
->>
->>definition: "Indicates the user performed several connected learning activities that should result in a change in their authoritative learner state"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/contextualized"\
+>>**display:** "contextualized",\
+>>**definition:** "Indicates the user performed several connected learning activities that should result in a change in their authoritative learner state"
 >
->Object:
->>id: "",\
->>definition:
->>>type: https://w3id.org/xapi/tla/activity-types/competency
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** https://w3id.org/xapi/tla/activity-types/competency
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
 >>>>_shall be a number between -1 and 1 displaying how likely the learner is to have mastered the assessed competency, -1 being sure they have not, and 1 being certain they have_
 
+<a name="Located"></a>
 ### Located
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/located"
->>display: "located",
->>definition: "Indicates the actor&#39;s competency state needs to be updated based on completed content changes in the Competency Framework"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/located"\
+>>**display:** "located",\
+>>**definition:** "Indicates the actor&#39;s competency state needs to be updated based on completed content changes in the Competency Framework"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/competency"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/competency"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
 >>>>_shall be a number between -1 and 1 displaying how likely the learner is to have mastered the located competency, -1 being sure they have not, and 1 being certain they have_
 
+<a name="Socialized"></a>
 ### Socialized
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/socialized",
->>display: "socialized",
->>definition: "Indicates the learner interacted with "Wild" (unscheduled) content in a social environment"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/socialized",\
+>>**display:** "socialized",\
+>>**definition:** "Indicates the learner interacted with "Wild" (unscheduled) content in a social environment"
 >
->Object
- >>   id: "",
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 
+<a name="Captured"></a>
 ### Captured
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/captured",
->>display: "captured",
->>definition: "Indicates the learner interacted with "Wild" (unscheduled) content in a social environment"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/captured",  \
+>>**display:** "captured",\
+>>**definition:** "Indicates the learner interacted with "Wild" (unscheduled) content in a social environment"
 >
->Object
->>id: "",
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
 >>>>"https://w3id.org/xapi/tla/activity-types/activity"]
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 
+<a name="Asserted"></a>
 ### Asserted
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/asserted"
->>display: "asserted",
->>definition: "Indicates the learner has provided sufficient evidence to update the learner&#39;s measure of competence in a given competency"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/asserted"\
+>>**display:** "asserted",\
+>>**definition:** "Indicates the learner has provided sufficient evidence to update the learner&#39;s measure of competence in a given competency"
 >
->Object:
->>id: "",
->>definition:
->>>type: https://w3id.org/xapi/tla/activity-types/competency
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** https://w3id.org/xapi/tla/activity-types/competency
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
 >>>>_shall be a number between -1 and 1 displaying how likely the learner is to have mastered the competency, -1 being sure they have not, and 1 being certain they have_
 
+<a name="Validated"></a>
 ### Validated
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/validated"
->>display: "validated",
->>definition: "Indicates an OICS approved a change to a competency framework within the TLA that will affect the learners&#39; states"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/validated"\
+>>**display:** "validated",\
+>>**definition:** "Indicates an OICS approved a change to a competency framework within the TLA that will affect the learners&#39; states"
 >
->Object:
->>id: "",
->>definition:
->>>type: https://w3id.org/xapi/tla/activity-types/competency
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** https://w3id.org/xapi/tla/activity-types/competency
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 >>>
@@ -1073,21 +963,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
 >>>>_shall be a number between -1 and 1 displaying how likely the learner is to have mastered the competency, -1 being sure they have not, and 1 being certain they have_
 
+<a name="Inferred"></a>
 ### Inferred
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/inferred"
->>display: "inferred",
->>definition: "Indicates an authoritative source changed a learner&#39;s competency assertions based on a valid competency framework change"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/inferred"\
+>>**display:** "inferred",\
+>>**definition:** "Indicates an authoritative source changed a learner&#39;s competency assertions based on a valid competency framework change"
 >
->Object:
->>id: "",
->>definition:
->>>type: https://w3id.org/xapi/tla/activity-types/competency
+>**Object:** 
+>>**id:** "",\
+>>**definition:**
+>>>**type:** https://w3id.org/xapi/tla/activity-types/competency
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 >>>
@@ -1097,57 +988,60 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
 >>>>_shall be a number between -1 and 1 displaying how likely the learner is to have mastered the competency, -1 being sure they have not, and 1 being certain they have_
 
+<a name="Qualified"></a>
 ### Qualified
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/qualified"
->>display: "qualified",
->>definition: "Indicates the learner meets all the requirements for a badge, but hasn&#39;t been awarded the badge yet"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/qualified"\
+>>**display:** "qualified",\
+>>**definition:** "Indicates the learner meets all the requirements for a badge, but hasn&#39;t been awarded the badge yet"
 >
->Object:
->>id: "",
->>definition:
->>>type: https://w3id.org/xapi/tla/activity-types/badge
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** https://w3id.org/xapi/tla/activity-types/badge
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
 
+<a name="Certified"></a>
 ### Certified
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/certified"
->>display: "certified",
->>definition: "Indicates the learner received an accreditation by an authoritative source to perform a given job or task"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/certified" \
+>>**display:** "certified",\
+>>**definition:** "Indicates the learner received an accreditation by an authoritative source to perform a given job or task"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/job"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/job"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
 
+<a name="Verified"></a>
 ### Verified
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/verified"
->>display: "verified",
->>definition: "Indicates the authoritative source verified evidence of learning from a non-authoritative source as reliable data"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/verified"\
+>>**display:** "verified",\
+>>**definition:** "Indicates the authoritative source verified evidence of learning from a non-authoritative source as reliable data"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/competency"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/competency"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
 >>>
@@ -1157,21 +1051,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Conferred"></a>
 ### Conferred
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/conferred"
->>display: "conferred",
->>definition: "Indicates the OICS conferred a badge to the learner in the learner context extension"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/conferred"\
+>>**display:** "conferred",\
+>>**definition:** "Indicates the OICS conferred a badge to the learner in the learner context extension"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/badge"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/badge"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
 >>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
 >>>
@@ -1181,52 +1076,55 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this statement applies to_
 
+<a name="Recruited"></a>
 ### Recruited
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/recruited"
->>display: "recruited",
->>definition: "Indicates the actor recruited the learner to join the ecosystem"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/recruited"\
+>>**display:** "recruited",\
+>>**definition:** "Indicates the actor recruited the learner to join the ecosystem"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/career"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/career"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Appraised"></a>
 ### Appraised
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/appraised"
->>display: "appraised",
->>definition: "OICS indicates the learner met entry criteria for jobs and assigned a career trajectory"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/appraised"\
+>>**display:** "appraised",\
+>>**definition:** "OICS indicates the learner met entry criteria for jobs and assigned a career trajectory"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/career"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/career"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 
+<a name="Detailed"></a>
 ### Detailed
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/detailed"
->>display: "detailed",
->>definition: "OICS detailed the learner to a specific job"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/detailed"\
+>>**display:** "detailed",\
+>>**definition:** "OICS detailed the learner to a specific job"
 >
->Object:
->>id: "",
->>definition:
->>>type: https://w3id.org/xapi/tla/activity-types/career
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** https://w3id.org/xapi/tla/activity-types/career
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED
 >>>>_shall be the physical location the learner has been detailed to_
 >>>
@@ -1239,21 +1137,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Mobilized"></a>
 ### Mobilized
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/mobilized"
->>display: "mobilized",
->>definition: "OICS mobilized the learner to a state of on duty"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/mobilized"\
+>>**display:** "mobilized",
+>>**definition:** "OICS mobilized the learner to a state of on duty"
 >
->Object:
->>id: "",
->>definition:
+>**Object:**
+>>**id:** "",\
+>>**definition:**
 >>>   type: "https://w3id.org/xapi/tla/activity-types/career_state"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED
 >>>>_shall be the physical location the learner has been mobilized to_
 >>>
@@ -1263,21 +1162,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Employed"></a>
 ### Employed
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/employed"
->>display: "employed",
->>definition: "OICS employs the actor such that they started work doing their job"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/employed"\
+>>**display:** "employed",\
+>>**definition:** "OICS employs the actor such that they started work doing their job"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/career_state"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/career_state"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED
 >>>>_shall be The physical location the learner has been employed at_
 >>>
@@ -1287,25 +1187,26 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Schooled"></a>
 ### Schooled
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/schooled"
->>display: "schooled",
->>definition: "OICS has enrolled the learner in a schooling system"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/schooled"\
+>>**display:** "schooled",\
+>>**definition:** "OICS has enrolled the learner in a schooling system"
 >
->Object:
->>id: "",
->>definition:
->>>type:
->>>>["https://w3id.org/xapi/tla/activity-types/competency",
->>>>"https://w3id.org/xapi/tla/activity-types/career",
->>>>"https://w3id.org/xapi/tla/activity-types/badge",
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:**
+>>>>["https://w3id.org/xapi/tla/activity-types/competency",\
+>>>>"https://w3id.org/xapi/tla/activity-types/career",\
+>>>>"https://w3id.org/xapi/tla/activity-types/badge",\
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED
 >>>>_shall be the physical location the learner has been employed at_
 >>>
@@ -1315,39 +1216,41 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Promoted"></a>
 ### Promoted
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/promoted"
->>display: "promoted",
->>definition: "OICS has changed a learner&#39;s rank, either up or down"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/promoted"\
+>>**display:** "promoted",\
+>>**definition:** "OICS has changed a learner&#39;s rank, either up or down"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/rank"
+>**Object:**
+>>**id:** "",
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/rank"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Screened"></a>
 ### Screened
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/screened"
->>display: "screened",
->>definition: "OICS screened learner for a potentially narrower career trajectory, and passed through a "gate" within their career trajectory"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/screened"\
+>>**display:** "screened",\
+>>**definition:** "OICS screened learner for a potentially narrower career trajectory, and passed through a "gate" within their career trajectory"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/career"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/career"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": RECOMMENDED
 >>>>_The reason the learner screened for a career path should be a resolvable identifier to xAPI data_
 >>>
@@ -1357,21 +1260,22 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Selected"></a>
 ### Selected
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/selected"
->>display: "selected",
->>definition: "OICS selected learner based on criteria for a potentially wider career trajectory, opening up new career possibilities"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/selected"\
+>>**display:** "selected",\
+>>**definition:** "OICS selected learner based on criteria for a potentially wider career trajectory, opening up new career possibilities"
 >
->Object:
->>id: "",
->>definition:
->>>type: https://w3id.org/xapi/tla/activity-types/career
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** https://w3id.org/xapi/tla/activity-types/career
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/evidence": RECOMMENDED
 >>>>_The reason the learner was selected for a career path should be a resolvable identifier to xAPI data_
 >>>
@@ -1381,55 +1285,58 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Transitioned"></a>
 ### Transitioned
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/transitioned"
->>display: "transitioned",
->>definition: "Indicates the actor changed career paths, putting them on a completely different and brand new career trajectory"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/transitioned"\
+>>**display:** "transitioned",\
+>>**definition:** "Indicates the actor changed career paths, putting them on a completely different and brand new career trajectory"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/career_state"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/career_state"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 
+<a name="Released"></a>
 ### Released
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/released"
->>display: "released",
->>definition: "Indicates OICS released the learner from the learning environment"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/released"\
+>>**display:** "released",\ 
+>>**definition:** "Indicates OICS released the learner from the learning environment"
 >
->Object:
->>id: "",
->>definition:
->>>type: "https://w3id.org/xapi/tla/activity-types/career_state"
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/career_state"
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/reason": INCLUDED
 >>>>_shall be text/String that describes the reason the learner has left the learning environment_ 
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
+<a name="Restricted"></a>
 ### Restricted
->Verb:
->>id: "https://w3id.org/xapi/tla/verbs/restricted"
->>display: "restricted",
->>definition: "Indicates OICS temporarily restricted the learner from some (possibly all) participation within the learning environment"
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/restricted"\
+>>**display:** "restricted",\
+>>**definition:** "Indicates OICS temporarily restricted the learner from some (possibly all) participation within the learning environment"
 >
->Object:
->>id: "",
->>definition:
->>>type: https://w3id.org/xapi/tla/activity-types/career_state
+>**Object:**
+>>**id:** "",\
+>>**definition:**
+>>>**type:** https://w3id.org/xapi/tla/activity-types/career_state
 >
->Result: EXCLUDED
+>**Result:** EXCLUDED
 >
->Context:
->>Extensions:
+>**Context:**
+>>**Extensions:**
 >>>"https://w3id.org/xapi/tla/extensions/restriction": INCLUDED
 >>>>_shall be text/String that describes the reason the learner has been restricted_
 >>>
@@ -1439,6 +1346,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_A
 
+<a name="LRS-storage-requirements"></a>
 ## LRS storage requirements
 
 Within a TLA environment, there are different levels of trust and access for different types of LRSs. The level of trust, user roles within those systems, and transfer of data between LRSs are out of scope of this document. Brief definitions of the types of LRSs can be found in the 3.1.
@@ -1452,8 +1360,6 @@ The following requirements exist for all LRSs within a TLA environment:
   - Note: depending on the conformance level, recommended practices change. For example, at conformance levels 1 and 2, there is no expected authoritative LRS, so all data is stored in the transactional LRS.
 - Transactional LRSs shall not allow statements that use any verb not in 5.1.
 - Authoritative LRSs shall not allow statements that use any verb except for the following verbs in 5.1:
-
-
   - qualified
   - conferred
   - certified
@@ -1475,6 +1381,7 @@ The following requirements exist for all LRSs within a TLA environment:
 
 - Authoritative LRSs should allow statements that use any verb in the list above.
 
+<a name="TLA-environment-reporting-requirements"></a>
 ## TLA environment reporting requirements
 
 A TLA compliant learning environment is composed of various functional groups. Each TLA functional group serves a different role with different requirements for reporting data (sending statements to an LRS). The functional groups may exist in any number of configurations of software and hardware, as part of distinct from devices used as &quot;learning activities&quot; to conduct learning . It is for this reason that the following are only recommended practices, as defining what a system is or is not simply by what is reported is not sufficient.
@@ -1483,6 +1390,7 @@ For a description of each of the TLA systems, please refer to Annex E.
 
 Only a competency management system shall send statements with the &quot;certified&quot; verb, unless the TLA environment is level 1 or 2.
 
+<a name="Competency-management-function"></a>
 ### Competency management function
 
 A level 1 or 2 TLA environment does not have a competency management system; rather other undefined systems shall send the required statements.
@@ -1507,6 +1415,7 @@ A competency management system should not send statements that do not contain th
 
 An OICS may send statements on behalf of a competency management system.
 
+<a name="Learning-event-management-function"></a>
 ### Learning event management function
 
 A learning event management system should send statements with the following verbs, as appropriate, and in accordance with the TLA conformance level as defined in 4.1-4.5:
@@ -1516,7 +1425,7 @@ A learning event management system should send statements with the following ver
 - satisfied
 - abandoned
 - recommended
-- rganized
+- organized
 - deselected
 - requested
 - approved
@@ -1533,6 +1442,7 @@ A learning event management system should not send statements that do not contai
 
 An OICS may send statements on behalf of a learning experience event system.
 
+<a name="Activity-provider-function"></a>
 ### Activity provider function
 
 Activity providers are the devices that generate the learning records (i.e. LRP) in response to learners conducting learning events. Traditional Learning Management Systems (LMS) serving Shareable Courseware Object Reference Model (SCORM) compliant courseware is an example of an activity provider, although simulators, observation tools, and any number of modern mobile learning devices may also be activity providers. Advanced providers like intelligent tutoring systems may include activity provider functions as well as some learning event management functions.
@@ -1550,6 +1460,7 @@ An activity provider should not send statements that do not contain the verbs st
 
 An OICS may send statements on behalf of an activity provider.
 
+<a name="Human-capital-managementfunction"></a>
 ### Human capital management function
 
 A human capital management system should send statements with the following verbs, as appropriate, and in accordance with the TLA conformance level as defined in 4.1-4.5:
@@ -1559,7 +1470,7 @@ A human capital management system should send statements with the following verb
 - satisfied
 - abandoned
 - recommended
-- rganized
+- organized
 - scheduled
 - requested
 - approved
@@ -1571,6 +1482,7 @@ A human capital management system should not send statements that do not contain
 
 An OICS may send statements on behalf of a human capital management system.
 
+<a name="A40"></a>
 # Annex A
 (informative)
 
@@ -1588,6 +1500,7 @@ An OICS may send statements on behalf of a human capital management system.
 
 [B6] W3C Recommendation (04 February 2004), XML Information Set, Second Edition.
 
+<a name="B41"></a>
 # Annex B
 (informative)
 
@@ -1654,6 +1567,7 @@ A learner-centric view of all verbs. Verbs here may appear to be passive to prov
 - **Released** :  Indicates OICS released the learner from the learning environment.
 - **Restricted** : Indicates OICS temporarily restricted the learner from some (possibly all) participation within the learning environment.
 
+<a name="C44"></a>
 # Annex C
 
 (informative)
@@ -1670,6 +1584,7 @@ Once the learner completes the exercise, all of the newly generated data is cont
 
 This standard uses a learner-centric vocabulary, which enables the entire TLA compliant environment to run as a stateless system of systems. This means that the learner could interface with TLA data at any stage in the expected object life cycle, and the services comprising the TLA instance will can execute without knowing previous or follow on learner states. This arrangement not only allows for a true ecosystem, since the origin of the statement doesn&#39;t matter, it is resilient to configuration changes with devices or services being added or subtracted over time.
 
+<a name="D46"></a>
 # Annex D
 (informative)
 
@@ -1689,6 +1604,7 @@ Object types, also known as activity types (as the object is usually of type &qu
 | Badge |[https://w3id.org/xapi/tla/activity-types/badge](https://w3id.org/xapi/tla/activity-types/badge) | An online badge that is earned after achieving multiple related competencies. In this sense badge is any kind of credential, a badge, a certificate, a degree, a license, etc. |
 | Job |[https://w3id.org/xapi/tla/activity-types/job](https://w3id.org/xapi/tla/activity-types/job) | A formal job, duty, legal obligation, permanent or temporary employment that requires a learner to possess some set of competencies and/or credentials |
 
+<a name="E47"></a>
 # Annex E
 (informative)
 
@@ -1740,6 +1656,4 @@ The TLA has many functional requirements for each of the component systems withi
 
 <a name="foot-8">[8]</a>:Prior to IEEE Standardization of xAPI, the following requirement existed: _This shall be in the same time zone and format as the rest of the timestamps in this statement_
 
-Copyright © 2020 IEEE. All rights reserved.
-
-This is an unapproved IEEE Standards Draft, subject to change.
+This is still under develiopment and is subject to change.
