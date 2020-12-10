@@ -296,6 +296,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >Verb:
 >>id: "https://w3id.org/xapi/adl/verbs/waived",
 >>display: "waived",
+>>
 >>definition: "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor."
 >
 >Object:
@@ -304,7 +305,9 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>definition:
 >>>type:
 >>>>["https://w3id.org/xapi/tla/activity-types/activity",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment",
+>>>>
 >>>>"https://w3id.org/xapi/tla/activity-types/competency"]
 
 
