@@ -3028,6 +3028,120 @@
         "https://w3id.org/xapi/tla#verified",
         "https://w3id.org/xapi/tla#asserted"
       ]
+    },
+    {
+        "id": "https://w3id.org/xapi/tla#approved_session",
+        "type": "Pattern",
+        "prefLabel": {
+        "en": "A requested activity was approved"
+        },
+        "inScheme": "https://w3id.org/xapi/tla/v0.14",
+        "sequence": [
+        "https://w3id.org/xapi/tla#requested",
+        "https://w3id.org/xapi/tla#approved",
+        "https://w3id.org/xapi/tla#scheduled"
+        ]
+    },
+    {
+        "id": "https://w3id.org/xapi/tla#socialized_session",
+        "type": "Pattern",
+        "prefLabel": {
+        "en": "A learner socialized content, and an OICS upodated learner state bc of it"
+        },
+        "inScheme": "https://w3id.org/xapi/tla/v0.14",
+        "sequence": [
+        "https://w3id.org/xapi/tla#socialized",
+        "https://w3id.org/xapi/tla#located",
+        "https://w3id.org/xapi/tla#asserted"
+        ]
+    },
+    {
+        "id": "https://w3id.org/xapi/tla#captured_session",
+        "type": "Pattern",
+        "prefLabel": {
+        "en": "A learner interacted with content in the wild, and an OICS upodated learner state bc of it"
+        },
+        "inScheme": "https://w3id.org/xapi/tla/v0.14",
+        "sequence": [
+        "https://w3id.org/xapi/tla#captured",
+        "https://w3id.org/xapi/tla#located",
+        "https://w3id.org/xapi/tla#asserted"
+        ]
+    },
+    {
+        "id": "https://w3id.org/xapi/tla#recommended_session",
+        "type": "Pattern",
+        "prefLabel": {
+        "en": "A learner schedules a learning event based on a reccomendation"
+        },
+        "inScheme": "https://w3id.org/xapi/tla/v0.14",
+        "sequence": [
+        "https://w3id.org/xapi/tla#recommended",
+        "https://w3id.org/xapi/tla#scheduled"
+        ]
+    },
+    {
+        "id": "https://w3id.org/xapi/tla#recruiting_session",
+        "type": "Pattern",
+        "prefLabel": {
+        "en": "A learner has been recruited into the ecosystem. Expected to create a new learner profile."
+        },
+        "inScheme": "https://w3id.org/xapi/tla/v0.14",
+        "sequence": [
+        "https://w3id.org/xapi/tla#recruited",
+        "https://w3id.org/xapi/tla#appraised",
+        "https://w3id.org/xapi/tla#detailed"
+        ]
+    },
+    {
+        "id": "https://w3id.org/xapi/tla#detailed_to_school",
+        "type": "Pattern",
+        "prefLabel": {
+        "en": "A learner has been sent to a schoolhose."
+        },
+        "inScheme": "https://w3id.org/xapi/tla/v0.14",
+        "sequence": [
+        "https://w3id.org/xapi/tla#detailed",
+        "https://w3id.org/xapi/tla#schooled"
+        ]
+    },
+    {
+        "id": "https://w3id.org/xapi/tla#detailed_to_work",
+        "type": "Pattern",
+        "prefLabel": {
+        "en": "A learner has been assigned for a new operational asignment (PCS)"
+        },
+        "inScheme": "https://w3id.org/xapi/tla/v0.14",
+        "sequence": [
+        "https://w3id.org/xapi/tla#detailed",
+        "https://w3id.org/xapi/tla#employed"
+        ]
+    },
+    {
+        "id": "https://w3id.org/xapi/tla#detailed_to_transitioned",
+        "type": "Pattern",
+        "prefLabel": {
+        "en": "A learner has been chosen for a change of profession"
+        },
+        "inScheme": "https://w3id.org/xapi/tla/v0.14",
+        "sequence": [
+        "https://w3id.org/xapi/tla#detailed",
+        "https://w3id.org/xapi/tla#transitioned",
+        "https://w3id.org/xapi/tla#appraised",
+        "https://w3id.org/xapi/tla#detailed"
+        ]
+    },
+    {
+        "id": "https://w3id.org/xapi/tla#detailed_to_released",
+        "type": "Pattern",
+        "prefLabel": {
+        "en": "A learner has been released from the learning environment"
+        },
+        "inScheme": "https://w3id.org/xapi/tla/v0.14",
+        "sequence": [
+        "https://w3id.org/xapi/tla#detailed",
+        "https://w3id.org/xapi/tla#employed"
+        ]
     }
   ]
 }
