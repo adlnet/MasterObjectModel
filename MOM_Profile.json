@@ -17,6 +17,10 @@
     {
       "id": "https://w3id.org/xapi/tla/v0.14",
       "generatedAtTime": "2021-01-19T11:40:22Z"
+    },
+    {
+      "id": "https://w3id.org/xapi/tla/v0.15",
+      "generatedAtTime": "2021-01-19T11:40:22Z"
     }
   ],
   "scopeNote": {
@@ -913,7 +917,7 @@
       "definition": {
         "en": "Indicates the actor attempted to start up an activity"
       },
-      "inScheme": "https://w3id.org/xapi/tla/v0.10",
+      "inScheme": "https://w3id.org/xapi/tla/v0.14",
       "verb": "https://adlnet.gov/expapi/verbs/launched",
       "rules": [
         {
@@ -922,10 +926,6 @@
           "all": [
             "Activity"
           ]
-        },
-        {
-          "location": "$.context.contextActivities",
-          "presence": "excluded"
         },
         {
           "location": "$.object.id",
