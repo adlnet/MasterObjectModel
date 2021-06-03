@@ -802,7 +802,7 @@
       "rules": [
         {
           "location": "$.result.duration",
-          "presence": "reccomended"
+          "presence": "recommended"
         },
         {
           "location": "$.object.id",
@@ -838,7 +838,7 @@
       "rules": [
         {
           "location": "$.result.duration",
-          "presence": "reccomended"
+          "presence": "recommended"
         },
         {
           "location": "$.object.id",
@@ -852,7 +852,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -882,11 +882,11 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/credential",
-            "https://w3id.org/xapi/tla/activity-types/job_duty_gig",
+            "https://w3id.org/xapi/tla/activity-types/job_duty_gig"
           ]
         }
       ]
@@ -912,37 +912,7 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/activity",
-            "https://w3id.org/xapi/tla/activity-types/assessment" 
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://w3id.org/xapi/tla#resumed",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "resumed"
-      },
-      "definition": {
-        "en": "Indicates the actor has continued or reopened a suspended learning activity"
-      },
-      "inScheme": "https://w3id.org/xapi/tla/v0.16",
-      "verb": "https://w3id.org/xapi/tla/verbs/resumed",
-      "rules": [
-        {
-          "location": "$.result.duration",
-          "presence": "reccomended"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included"
-        },
-        {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -965,7 +935,7 @@
       "rules": [
         {
           "location": "$.result.duration",
-          "presence": "reccomended"
+          "presence": "recommended"
         },
         {
           "location": "$.result.score",
@@ -976,7 +946,7 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -999,7 +969,7 @@
       "rules": [
         {
           "location": "$.result.duration",
-          "presence": "reccomended",
+          "presence": "recommended",
           "scopeNote": {
             "en": "This should be the amount of time spent in the activity before suspending"
           }
@@ -1013,7 +983,7 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -1036,18 +1006,18 @@
       "rules": [
         {
           "location": "$.result.duration",
-          "presence": "reccomended"
+          "presence": "recommended"
         },
         {
           "location": "$.result.score",
-          "presence": "included"
+          "presence": "excluded"
         },
         {
           "location": "$.object.id",
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -1089,7 +1059,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career",
@@ -1129,7 +1099,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -1168,7 +1138,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "recommended",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -1222,7 +1192,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -1279,7 +1249,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/assessment"
@@ -1343,7 +1313,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/assessment"
@@ -1381,7 +1351,7 @@
           ]
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -1434,7 +1404,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/assessment",
@@ -1481,7 +1451,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/assessment",
@@ -1525,7 +1495,7 @@
           ]
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/assessment",
@@ -1569,7 +1539,7 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "recommended",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/content_set",
@@ -1619,7 +1589,7 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "recommended",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/assessment",
@@ -1657,7 +1627,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career",
@@ -1704,7 +1674,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career",
@@ -1776,7 +1746,7 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -1817,7 +1787,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -1856,7 +1826,7 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career",
@@ -1900,7 +1870,7 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career",
@@ -1941,7 +1911,7 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/activity",
@@ -1982,7 +1952,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "all": [
             "https://w3id.org/xapi/tla/activity-types/competency"
@@ -2025,7 +1995,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/competency"
@@ -2068,7 +2038,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/competency"
@@ -2118,7 +2088,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/competency"
@@ -2161,7 +2131,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/badge"
@@ -2200,7 +2170,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/job_duty_gig"
@@ -2236,7 +2206,7 @@
           "presence": "included"
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/competency"
@@ -2280,7 +2250,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/badge",
@@ -2331,7 +2301,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career"
@@ -2367,7 +2337,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career"
@@ -2399,7 +2369,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career_state"
@@ -2447,7 +2417,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career_state"
@@ -2491,7 +2461,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career_state"
@@ -2535,7 +2505,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/competency",
@@ -2583,7 +2553,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/rank"
@@ -2619,7 +2589,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career"
@@ -2663,7 +2633,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career"
@@ -2707,7 +2677,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career_state"
@@ -2739,7 +2709,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career_state"
@@ -2779,7 +2749,7 @@
           }
         },
         {
-          "location": "$.object.definition.type",
+          "location": "$.object.definition.activityType",
           "presence": "included",
           "any": [
             "https://w3id.org/xapi/tla/activity-types/career_state"
