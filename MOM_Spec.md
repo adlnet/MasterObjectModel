@@ -43,14 +43,9 @@
            - [Clarified](./MOM_Spec.md#Clarified)
            - [Directed](./MOM_Spec.md#Directed)
            - [Scheduled](./MOM_Spec.md#Scheduled)
-           - [Evaluated](./MOM_Spec.md#Evaluated)
-           - [Tracked](./MOM_Spec.md#Tracked)
-           - [Surveyed](./MOM_Spec.md#Surveyed)
            - [Assessed](./MOM_Spec.md#Assessed)
            - [Contextualized](./MOM_Spec.md#Contextualized)
            - [Located](./MOM_Spec.md#Located)
-           - [Socialized](./MOM_Spec.md#Socialized)
-           - [Captured](./MOM_Spec.md#Captured)
            - [Asserted](./MOM_Spec.md#Asserted)
            - [Validated](./MOM_Spec.md#Validated)
            - [Inferred](./MOM_Spec.md#Inferred)
@@ -223,7 +218,6 @@ An instance of TLA level 3
 - Shall implement statements using the &quot;assessed&quot; verb with all requirements fulfilled from 5.1.26
 - Shall implement statements using the &quot;contextualized&quot; verb with all requirements fulfilled from 5.1.27
 - Shall implement statements using the &quot;located&quot; verb with all requirements fulfilled from 5.1.28
-- Shall implement statements using the &quot;socialized&quot; verb with all requirements fulfilled from 5.1.29
 - Shall implement statements using the &quot;captured&quot; verb with all requirements fulfilled from 5.1.30
 - Shall implement statements using the &quot;asserted&quot; verb with all requirements fulfilled from 5.1.31
 - Shall implement statements using the &quot;validated&quot; verb with all requirements fulfilled from 5.1.32
@@ -252,9 +246,6 @@ An instance of TLA level 4
 - Shall implement statements using the &quot;clarified&quot; verb with all requirements fulfilled from 5.1.21
 - Shall implement statements using the &quot;directed&quot; verb with all requirements fulfilled from 5.1.22
 - Shall implement statements using the &quot;scheduled&quot; verb with all requirements fulfilled from 5.1.23
-- Shall implement statements using the &quot;evaluated&quot; verb with all requirements fulfilled from 5.1.24
-- Shall implement statements using the &quot;tracked&quot; verb with all requirements fulfilled from 5.1.25
-- Shall implement statements using the &quot;surveyed&quot; verb with all requirements fulfilled from 5.1.26
 
 <a name="Level5"></a>
 ## TLA conformance level 5
@@ -743,73 +734,6 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
 >>>>_shall be the learner to whom this data applies to_
 
-<a name="Evaluated"></a>
-### Evaluated
->**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/evaluated",\
->>**display:** "evaluated",\
->>**definition:** "Indicates the learner(s) appeared in a Measure of Effectiveness (MOE) search"
->
->**Object:**
->>**id:** "",\
->>**definition:**
->>>**type:**
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
->>>>"https://w3id.org/xapi/tla/activity-types/activity"]
->
->**Result:** Excluded
->
->**Context:**
->>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
->>>>_shall be the learner to whom this data applies to_
-
-<a name="Tracked"></a>
-### Tracked
->**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/tracked",\
->>**display:** "tracked",\
->>**definition:** "Indicates the learner(s) appeared in a competency search"
->
->**Object:**
->>**id:** "",\
->>**definition:**
->>>**type:** "https://w3id.org/xapi/tla/activity-types/competency"
->
->**Result:** Excluded
->
->**Context:**
->>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
->>>>_shall be the learner to whom this data applies to_
-
-<a name="Surveyed"></a>
-### Surveyed
->**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/surveyed",\
->>**display:** "surveyed",\
->>**definition:** "Indicates the learner(s) appeared in a Measure of Performance (MOP) search"
->
->>**Object:**\
->>**id:** "",
->>>_shall point to a node in the Competency Management System with type of MOP_
->>
->>**definition:**
->>>**type:**
->>>>["https://w3id.org/xapi/tla/activity-types/assessment",\
->>>>"https://w3id.org/xapi/tla/activity-types/activity",\
->>>>"https://w3id.org/xapi/tla/activity-types/career",\
->>>>"https://w3id.org/xapi/tla/activity-types/badge",\
->>>>"https://w3id.org/xapi/tla/activity-types/job"]
->
->**Result:** EXCLUDED
->
->**Context:**
->>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
->>>>_shall be the learner to whom this data applies to_
-
 <a name="Assessed"></a>
 ### Assessed
 >**Verb:**
@@ -878,40 +802,6 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
 >>>>_shall be a number between -1 and 1 displaying how likely the learner is to have mastered the located competency, -1 being sure they have not, and 1 being certain they have_
-
-<a name="Socialized"></a>
-### Socialized
->**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/socialized",\
->>**display:** "socialized",\
->>**definition:** "Indicates the learner interacted with "Wild" (unscheduled) content in a social environment"
->
->**Object:**
->>**id:** "",\
->>**definition:**
->>>**type:**
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
->>>>"https://w3id.org/xapi/tla/activity-types/activity"]
->
->**Result:** EXCLUDED
-
-<a name="Captured"></a>
-### Captured
->**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/captured",  \
->>**display:** "captured",\
->>**definition:** "Indicates the learner interacted with "Wild" (unscheduled) content in a social environment"
->
->**Object:**
->>**id:** "",\
->>**definition:**
->>>**type:**
->>>>["https://w3id.org/xapi/tla/activity-types/activity_cluster",\
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
->>>>"https://w3id.org/xapi/tla/activity-types/activity"]
->
->**Result:** EXCLUDED
 
 <a name="Asserted"></a>
 ### Asserted
@@ -1409,9 +1299,6 @@ A level 1 or 2 TLA environment does not have a competency management system; rat
 
 A competency management system should send statements with the following verbs, as appropriate, and in accordance with the TLA conformance level as defined in 4.1-4.5:
 
-- surveyed
-- evaluated
-- tracked
 - located
 - assessed
 - asserted
@@ -1543,8 +1430,6 @@ A learner-centric view of all verbs. Verbs here may appear to be passive to prov
 - **Assessed** : Indicates the learner completed assessments in a way that will cause a change in their authoritative learner state.
 - **Contextualized** : Indicates the learner performed several connected learning activities that should result in a change in their authoritative learner state.
 - **Located** : Indicates the learner&#39;s competency state needs to be updated based on completed experiences and changes in the Competency Framework.
-- **Socialized** : Indicates the learner interacted with &quot;wild&quot; (unscheduled) experience in a social environment.
-- **Captured** : Indicates the learner interacted with &quot;wild&quot; (out of network) or unplanned experience.
 - **Asserted** : Indicates the learner has provided sufficient evidence to update the learner&#39;s measure of competence in a given competency.
 - **Validated** : Indicates an OICS approved a change to a competency framework within the TLA that will affect learners&#39; states.
 - **Inferred** : Indicates an OICS changed a learner&#39;s competency assertions based on a valid competency framework change.
@@ -1561,9 +1446,6 @@ A learner-centric view of all verbs. Verbs here may appear to be passive to prov
 - **Explored** : Indicates the learner searched active learning goals related to specific experience, viewing what other experience may trigger related goals, based on active goal and recently completed experience.
 - **Clarified** : Indicates the learner queried what other experience may also reinforce the current learning goal, after completing experience.
 - **Scheduled** : Indicates the learner scheduled an experience or lesson.
-- **Evaluated** : Indicates the learner(s) appeared in a Measure of Effectiveness (MOE) search.
-- **Tracked** : Indicates the learner(s) appeared in a competency search.
-- **Surveyed** : Indicates the learner(s) appeared in a Measure of Performance (MOP) search.
 
 **TLA Level 5:**
 - **Recruited** : Indicates an OICS recruited the learner to join the ecosystem.
@@ -1586,7 +1468,7 @@ A learner-centric view of all verbs. Verbs here may appear to be passive to prov
 
 **Expected data flow for formal and informal learning**
 
-Within TLA enabled systems, there is an expected flow of learner state as depicted in _ **Figure 1** _. The flow may include a deliberate or casual configuration of the learner&#39;s environment. In deliberate learning, the sequence begins with the learner setting goals, planning (or being assigned plans) tasks to achieve these goals, scheduling learning events, and then launching learning exercises. Each is represented by a verb within this specification, and the data generated by learning exercise is then stored in the transactional LRS describing the order and context under which the learner, or the learner&#39;s mentor (OICS) configured their own learning environment. The relationship between the goals, tasks, events, records of completion, evaluated assertions and conferral chain provides a discoverable audit trail or trusted chain of evidence .
+Within TLA enabled systems, there is an expected flow of learner state as depicted in _ **Figure 1** _. The flow may include a deliberate or casual configuration of the learner&#39;s environment. In deliberate learning, the sequence begins with the learner setting goals, planning (or being assigned plans) tasks to achieve these goals, scheduling learning events, and then launching learning exercises. Each is represented by a verb within this specification, and the data generated by learning exercise is then stored in the transactional LRS describing the order and context under which the learner, or the learner&#39;s mentor (OICS) configured their own learning environment. The relationship between the goals, tasks, events, records of completion and conferral chain provides a discoverable audit trail or trusted chain of evidence .
 
 ![Mom Data Flow](./Logos/MOM_Data_Flow.png)
 
