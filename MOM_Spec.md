@@ -296,15 +296,15 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**objectType:** Activity\
 >>**definition:**
 >>>**type:**
->>>>["https://w3id.org/xapi/tla/activity-types/activity",\
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
+>>>>["https://w3id.org/xapi/tla/activity-types/activity", \
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment", \
 >>>>"https://w3id.org/xapi/tla/activity-types/competency"]
 
 <a name="Launched"></a>
 ### Launched
 >**Verb:**
->>**id:** "https://adlnet.gov/expapi/verbs/launched",\
->>**display:** "launched",\
+>>**id:** "https://adlnet.gov/expapi/verbs/launched", \
+>>**display:** "launched", \
 >>**definition:** "Indicates the user started a service. This does not always need to be a specific activity but can be a service provider as well."
 >
 >**Object:**
@@ -312,8 +312,8 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**objectType:** Activity\
 >>**definition:**
 >>>**type:**
->>>>["https://w3id.org/xapi/tla/activity-types/activity",\
->>>>"https://w3id.org/xapi/tla/activity-types/assessment",\
+>>>>["https://w3id.org/xapi/tla/activity-types/activity", \
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment", \
 >>>>"https://w3id.org/xapi/tla/activity-types/competency"]
 >
 >**Context:**
@@ -322,7 +322,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Completed"></a>
 ### Completed
 >**Verb:**
->>**id:** "https://adlnet.gov/expapi/verbs/completed",\
+>>**id:** "https://adlnet.gov/expapi/verbs/completed", \
 >>**display:** "completed",\
 >>**definition:** "Indicates the actor finished or concluded the activity normally"
 >
@@ -341,7 +341,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Passed"></a>
 ### Passed
 >**Verb:**
->>**id:** "https://adlnet.gov/expapi/verbs/passed",\
+>>**id:** "https://adlnet.gov/expapi/verbs/passed", \
 >>**display:** "passed",\
 >>**definition:** "Indicates the actor completed an activity to standard"
 >
@@ -360,7 +360,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Failed"></a>
 ### Failed
 >**Verb:**
->>**id:** "https://adlnet.gov/expapi/verbs/failed",\
+>>**id:** "https://adlnet.gov/expapi/verbs/failed", \
 >>**display:** "failed",\
 >>**definition:** "Indicates the actor did not complete an activity to standard"
 >
@@ -379,7 +379,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Satisfied"></a>
 ### Satisfied
 >**Verb:**
->>**id:** "https://w3id.org/xapi/adl/verbs/satisfied",\
+>>**id:** "https://w3id.org/xapi/adl/verbs/satisfied", \
 >>**display:** "satisfied",\
 >>**definition:** "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity by means other than completing the activity"
 >
@@ -388,13 +388,13 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**objectType:** Activity\
 >>**definition:**
 >>>**type:**
->>>>["https://w3id.org/xapi/tla/activity-types/activity",\
+>>>>["https://w3id.org/xapi/tla/activity-types/activity", \
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"]
 
 <a name="Abandoned"></a>
 ### Abandoned
 >**Verb:**
->>**id:** "https://w3id.org/xapi/adl/verbs/abandoned",\
+>>**id:** "https://w3id.org/xapi/adl/verbs/abandoned", \
 >>**display:** "abandoned",\
 >>**definition:** "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)"
 >
@@ -415,7 +415,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Terminated"></a>
 ### Terminated
 >**Verb:**
->>**id:** "https://adlnet.gov/expapi/verbs/terminated",\
+>>**id:** "https://adlnet.gov/expapi/verbs/terminated", \
 >>**display:** "terminated",\
 >>**definition:** "Indicates the actor has completed their session normally"
 >
@@ -436,7 +436,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Initialized"></a>
 ### Initialized
 >**Verb:**
->>**id:** "https://adlnet.gov/expapi/verbs/initialized",\
+>>**id:** "https://adlnet.gov/expapi/verbs/initialized", \
 >>**display:** "initialized",\
 >>**definition:** "Indicates that the activity was started."
 >
@@ -453,7 +453,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Recommended"></a>
 ### Recommended
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/recommended",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/recommended", \
 >>**display:** "recommended",\
 >>**definition:** "Indicates the learner was given the recommendation to follow a career path, work towards a learning objective, or perform a learning activity by the actor"
 >
@@ -480,7 +480,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Prioritized"></a>
 ### Prioritized
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/prioritized",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/prioritized", \
 >>**display:** "prioritized",\
 >>**definition:** "Indicates the actor filtered goals associated with select content, usually listing what competencies are demonstrated in recently viewed content"
 >
@@ -502,7 +502,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Organized"></a>
 ### Organized
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/organized",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/organized", \
 >>**display:** "organized",\
 >>**definition:** "Indicates the actor filtered content that aligns to specific goal"
 >
@@ -524,7 +524,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Projected"></a>
 ### Projected
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/projected",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/projected", \
 >>**display:** "projected",\
 >>**definition:** "Indicates the actor was presented a list of goal recommendations over time, based on selected goal with recursive depth, what set of content can achieve mastery in the ordered sub-goals"
 >
@@ -541,7 +541,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Planned"></a>
 ### Planned
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/planned",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/planned", \
 >>**display:** "planned",\
 >>**definition:** "Indicates that the actor assigned themselves a new learning goal, without needing approval"
 >
@@ -559,7 +559,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Deselected"></a>
 ### Deselected
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/deselected",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/deselected", \
 >>**display:** "deselected",\
 >>**definition:** "Indicates the actor removed specific goal or task"
 >
@@ -581,7 +581,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Requested"></a>
 ### Requested
 >**Verb:**
->>**id:** "https://w3id.org/xapi/adb/verbs/requested",\
+>>**id:** "https://w3id.org/xapi/adb/verbs/requested", \
 >>**display:** "requested",\
 >>**definition:** "Indicates the actor needed or demanded an object or another actor. Requested indicates a comment that is shared with peers as a group or Coach as a trainer. The request for coaching or help prompts users to respond giving them coaching credit"
 >
@@ -598,7 +598,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Approved"></a>
 ### Approved
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/approved",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/approved", \
 >>**display:** "approved",\
 >>**definition:** "Indicates an OICS approved a requested activity for the given learner"
 >
@@ -622,7 +622,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Augmented"></a>
 ### Augmented
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/augmented",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/augmented", \
 >>**display:** "augmented",\
 >>**definition:** "Indicates the actor searched content on an active learning goal, viewing what other goals/branches can be related based on an active goal tree"
 >
@@ -644,7 +644,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Explored"></a>
 ### Explored
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/explored",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/explored", \
 >>**display:** "explored",\
 >>**definition:** "Indicates the actor searched active learning goals related to specific content, viewing what other content may trigger related goals, based on active goal and recently completed content"
 >
@@ -666,7 +666,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Clarified"></a>
 ### Clarified
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/clarified",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/clarified", \
 >>**display:** "clarified",\
 >>**definition:** "Indicates the actor queried what other content may also reinforce the current learning goal, after completing content"
 >
@@ -689,7 +689,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Directed"></a>
 ### Directed
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/directed",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/directed", \
 >>**display:** "directed",\
 >>**definition:** "Indicates the actor was assigned a learning goal by another party"
 >
@@ -712,7 +712,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Scheduled"></a>
 ### Scheduled
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/scheduled",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/scheduled", \
 >>**display:** "scheduled",\
 >>**definition:** "Indicates the actor scheduled an activity or lesson"
 >
@@ -737,7 +737,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Assessed"></a>
 ### Assessed
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/assessed"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/assessed", \
 >>**display:** "assessed",\
 >>**definition:** "Indicates the actor completed assessments in a way that will cause a change in their authoritative learner state"
 >
@@ -764,7 +764,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Contextualized"></a>
 ### Contextualized
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/contextualized"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/contextualized", \
 >>**display:** "contextualized",\
 >>**definition:** "Indicates the user performed several connected learning activities that should result in a change in their authoritative learner state"
 >
@@ -775,7 +775,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
+>>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED,
 >>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
@@ -784,7 +784,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Located"></a>
 ### Located
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/located"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/located", \
 >>**display:** "located",\
 >>**definition:** "Indicates the actor&#39;s competency state needs to be updated based on completed content changes in the Competency Framework"
 >
@@ -806,7 +806,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Asserted"></a>
 ### Asserted
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/asserted"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/asserted", \
 >>**display:** "asserted",\
 >>**definition:** "Indicates the learner has provided sufficient evidence to update the learner&#39;s measure of competence in a given competency"
 >
@@ -828,7 +828,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Validated"></a>
 ### Validated
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/validated"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/validated", \
 >>**display:** "validated",\
 >>**definition:** "Indicates an OICS approved a change to a competency framework within the TLA that will affect the learners&#39; states"
 >
@@ -841,10 +841,10 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
+>>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED,
 >>>>_shall be the learner to whom this data applies to_
 >>>
->>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
+>>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED,
 >>>>_shall be a resolvable identifier to the xAPI asserted statement was just validated_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
@@ -853,7 +853,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Inferred"></a>
 ### Inferred
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/inferred"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/inferred", \
 >>**display:** "inferred",\
 >>**definition:** "Indicates an authoritative source changed a learner&#39;s competency assertions based on a valid competency framework change"
 >
@@ -878,7 +878,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Qualified"></a>
 ### Qualified
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/qualified"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/qualified", \
 >>**display:** "qualified",\
 >>**definition:** "Indicates the learner meets all the requirements for a badge, but hasn&#39;t been awarded the badge yet"
 >
@@ -897,8 +897,8 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Certified"></a>
 ### Certified
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/certified" \
->>**display:** "certified",\
+>>**id:** "https://w3id.org/xapi/tla/verbs/certified", \
+>>**display:** "certified", \
 >>**definition:** "Indicates the learner received an accreditation by an authoritative source to perform a given job or task"
 >
 >**Object:**
@@ -916,7 +916,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Verified"></a>
 ### Verified
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/verified"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/verified", \
 >>**display:** "verified",\
 >>**definition:** "Indicates the authoritative source verified evidence of learning from a non-authoritative source as reliable data"
 >
@@ -941,7 +941,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Conferred"></a>
 ### Conferred
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/conferred"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/conferred", \
 >>**display:** "conferred",\
 >>**definition:** "Indicates the OICS conferred a badge to the learner in the learner context extension"
 >
@@ -954,10 +954,10 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED
+>>>"https://w3id.org/xapi/tla/extensions/evidence": INCLUDED,
 >>>>_shall be a resolvable identifier to the xAPI statement(s) that resulted in this statement_
 >>>
->>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED
+>>>"https://w3id.org/xapi/tla/extensions/confidence": INCLUDED,
 >>>>_shall be a number between -1 and 1 displaying how likely the learner is to have mastered the competency, -1 being sure they have not, and 1 being certain they have_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
@@ -966,7 +966,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Recruited"></a>
 ### Recruited
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/recruited"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/recruited", \
 >>**display:** "recruited",\
 >>**definition:** "Indicates the actor recruited the learner to join the ecosystem"
 >
@@ -985,7 +985,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Appraised"></a>
 ### Appraised
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/appraised"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/appraised", \
 >>**display:** "appraised",\
 >>**definition:** "OICS indicates the learner met entry criteria for jobs and assigned a career trajectory"
 >
@@ -999,7 +999,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Detailed"></a>
 ### Detailed
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/detailed"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/detailed", \
 >>**display:** "detailed",\
 >>**definition:** "OICS detailed the learner to a specific job"
 >
@@ -1012,13 +1012,13 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED,
 >>>>_shall be the physical location the learner has been detailed to_
 >>>
->>>"https://w3id.org/xapi/tla/extensions/permanent_change_of_station": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/permanent_change_of_station": RECOMMENDED,
 >>>>_shall be a boolean marking if this is a PCS or a different detail event_
 >>>
->>>"https://w3id.org/xapi/tla/extensions/unit_identification_code": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/unit_identification_code": RECOMMENDED,
 >>>>_shall be a unique code for the learner's unit_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
@@ -1027,7 +1027,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Mobilized"></a>
 ### Mobilized
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/mobilized"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/mobilized", \
 >>**display:** "mobilized",
 >>**definition:** "OICS mobilized the learner to a state of on duty"
 >
@@ -1040,10 +1040,10 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED,
 >>>>_shall be the physical location the learner has been mobilized to_
 >>>
->>>"https://w3id.org/xapi/tla/extensions/unit_identification_code": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/unit_identification_code": RECOMMENDED,
 >>>>_shall be a unique code for the learner&#39;s unit_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
@@ -1052,7 +1052,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Employed"></a>
 ### Employed
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/employed"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/employed", \
 >>**display:** "employed",\
 >>**definition:** "OICS employs the actor such that they started work doing their job"
 >
@@ -1065,10 +1065,10 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED,
 >>>>_shall be The physical location the learner has been employed at_
 >>>
->>>"https://w3id.org/xapi/tla/extensions/unit_identification_code": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/unit_identification_code": RECOMMENDED,
 >>>>_shall be a unique code for the learner&#39;s unit_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
@@ -1077,7 +1077,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Schooled"></a>
 ### Schooled
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/schooled"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/schooled", \
 >>**display:** "schooled",\
 >>**definition:** "OICS has enrolled the learner in a schooling system"
 >
@@ -1085,19 +1085,19 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**id:** "",\
 >>**definition:**
 >>>**type:**
->>>>["https://w3id.org/xapi/tla/activity-types/competency",\
->>>>"https://w3id.org/xapi/tla/activity-types/career",\
->>>>"https://w3id.org/xapi/tla/activity-types/badge",\
+>>>>["https://w3id.org/xapi/tla/activity-types/competency", \
+>>>>"https://w3id.org/xapi/tla/activity-types/career", \
+>>>>"https://w3id.org/xapi/tla/activity-types/badge", \
 >>>>"https://w3id.org/xapi/tla/activity-types/job"]
 >
 >**Result:** EXCLUDED
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/location": RECOMMENDED,
 >>>>_shall be the physical location the learner has been employed at_
 >>>
->>>"https://w3id.org/xapi/tla/extensions/unit_identification_code": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/unit_identification_code": RECOMMENDED,
 >>>>_shall be a unique code for the learner&#39;s unit_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
@@ -1106,7 +1106,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Promoted"></a>
 ### Promoted
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/promoted"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/promoted", \
 >>**display:** "promoted",\
 >>**definition:** "OICS has changed a learner&#39;s rank, either up or down"
 >
@@ -1125,7 +1125,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Screened"></a>
 ### Screened
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/screened"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/screened", \
 >>**display:** "screened",\
 >>**definition:** "OICS screened learner for a potentially narrower career trajectory, and passed through a "gate" within their career trajectory"
 >
@@ -1138,10 +1138,10 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/evidence": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/evidence": RECOMMENDED,
 >>>>_The reason the learner screened for a career path should be a resolvable identifier to xAPI data_
 >>>
->>>"https://w3id.org/xapi/tla/extensions/epiration": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/epiration": RECOMMENDED,
 >>>>_shall be a timestamp of the time the screening expires_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
@@ -1150,7 +1150,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Selected"></a>
 ### Selected
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/selected"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/selected", \
 >>**display:** "selected",\
 >>**definition:** "OICS selected learner based on criteria for a potentially wider career trajectory, opening up new career possibilities"
 >
@@ -1163,10 +1163,10 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/evidence": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/evidence": RECOMMENDED,
 >>>>_The reason the learner was selected for a career path should be a resolvable identifier to xAPI data_
 >>>
->>>"https://w3id.org/xapi/tla/extensions/epiration": RECOMMENDED
+>>>"https://w3id.org/xapi/tla/extensions/epiration": RECOMMENDED,
 >>>>_shall be a timestamp of the time the screening expires_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
@@ -1175,7 +1175,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Transitioned"></a>
 ### Transitioned
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/transitioned"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/transitioned", \
 >>**display:** "transitioned",\
 >>**definition:** "Indicates the actor changed career paths, putting them on a completely different and brand new career trajectory"
 >
@@ -1189,7 +1189,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Released"></a>
 ### Released
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/released"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/released", \
 >>**display:** "released",\ 
 >>**definition:** "Indicates OICS released the learner from the learning environment"
 >
@@ -1202,7 +1202,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/reason": INCLUDED
+>>>"https://w3id.org/xapi/tla/extensions/reason": INCLUDED,
 >>>>_shall be text/String that describes the reason the learner has left the learning environment_ 
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
@@ -1211,7 +1211,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Restricted"></a>
 ### Restricted
 >**Verb:**
->>**id:** "https://w3id.org/xapi/tla/verbs/restricted"\
+>>**id:** "https://w3id.org/xapi/tla/verbs/restricted", \
 >>**display:** "restricted",\
 >>**definition:** "Indicates OICS temporarily restricted the learner from some (possibly all) participation within the learning environment"
 >
@@ -1224,10 +1224,10 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Context:**
 >>**Extensions:**
->>>"https://w3id.org/xapi/tla/extensions/restriction": INCLUDED
+>>>"https://w3id.org/xapi/tla/extensions/restriction": INCLUDED,
 >>>>_shall be text/String that describes the reason the learner has been restricted_
 >>>
->>>"https://w3id.org/xapi/tla/extensions/reason": INCLUDED
+>>>"https://w3id.org/xapi/tla/extensions/reason": INCLUDED,
 >>>>_shall be the timestamp corresponding to when the restriction is lifted. May be NULL(e.g. if the restriction will not expire)_
 >>>
 >>>"https://w3id.org/xapi/tla/extensions/learner": INCLUDED
@@ -1236,7 +1236,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Voided"></a>
 ### Voided
 >**Verb:**
->>**id:** "http://adlnet.gov/expapi/verbs/voided" \
+>>**id:** "http://adlnet.gov/expapi/verbs/voided", \
 >>**display:** "voided",\
 >>**definition:** "Indicates that the actor has done something to void a previous event"
 >
