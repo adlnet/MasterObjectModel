@@ -287,7 +287,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 <a name="Waived"></a>
 ### Waived
 >**Verb:**
->>**id:** "https://w3id.org/xapi/adl/verbs/waived",\
+>>**id:** "https://w3id.org/xapi/adl/verbs/waived", \
 >>**display:** "waived",\
 >>**definition:** "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor."
 >
