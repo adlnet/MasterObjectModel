@@ -1265,7 +1265,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**id:** "",\
 >>**definition:** 
 >>>**type:** "https://w3id.org/xapi/tla/activity-types/activity", \
->>>**extensions:** "https://w3id.org/xapi/tla/extensions/instance"
+>>>**extensions:** "https://w3id.org/xapi/tla/extensions/instance" \
 >>>>_This should be a pointer to the an actual session definition_
 >
 >**Result:**
@@ -1302,7 +1302,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**definition:** ""
 >>>**type:** 
 >>>>["https://w3id.org/xapi/tla/activity-types/credential", \
->>>>"https://w3id.org/xapi/tla/activity-types/job_duty_gig"] \
+>>>>"https://w3id.org/xapi/tla/activity-types/job_duty_gig"] 
 >
 >**Result:**
 >>**duration:** EXCLUDED
@@ -1319,7 +1319,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**definition:** ""
 >>>**type:** 
 >>>>["https://w3id.org/xapi/tla/activity-types/activity", \
->>>>"https://w3id.org/xapi/tla/activity-types/assessment"] \
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment"] 
 >
 >**Result:**
 >>**duration:** EXCLUDED
@@ -1336,7 +1336,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**definition:** ""
 >>>**type:** 
 >>>>["https://w3id.org/xapi/tla/activity-types/activity", \
->>>>"https://w3id.org/xapi/tla/activity-types/assessment"] \
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment"] 
 >
 >**Result:**
 >>**duration:** RECOMMENDED \
@@ -1354,7 +1354,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**definition:** ""
 >>>**type:** 
 >>>>["https://w3id.org/xapi/tla/activity-types/activity", \
->>>>"https://w3id.org/xapi/tla/activity-types/assessment"] \
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment"] 
 >
 >**Result:**
 >>**duration:** RECOMMENDED
@@ -1374,7 +1374,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>**type:** 
 >>>>["https://w3id.org/xapi/tla/activity-types/activity", \
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment", \
->>>>"https://w3id.org/xapi/tla/activity-types/job_duty_gig"] \
+>>>>"https://w3id.org/xapi/tla/activity-types/job_duty_gig"] 
 >
 >**Result:**
 >>**duration:** EXCLUDED \
