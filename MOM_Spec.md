@@ -1247,6 +1247,23 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Result:** EXCLUDED
 
+<a name="attended"></a>
+### attended
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/attended", \
+>>**display:** "attended",\
+>>**definition:** "Indicates that the actor is present at a virtual or physical event or activity"
+>
+>**Object:**
+>>**id:** "",\
+>>**definition:** 
+>>>**type:** "https://w3id.org/xapi/tla/activity-types/activity", \
+>>>**extensions:** "https://w3id.org/xapi/tla/extensions/instance"
+>>>>_This should be a pointer to the an actual session definition_
+>
+>**Result:**
+>>**duration:** RECOMMENDED
+
 
 <a name="LRS-storage-requirements"></a>
 ## LRS storage requirements
