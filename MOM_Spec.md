@@ -66,6 +66,13 @@
            - [Released](./MOM_Spec.md#Released)
            - [Restricted](./MOM_Spec.md#Restricted)
            - [Voided](./MOM_Spec.md#Voided)
+           - [Attended](./MOM_Spec.md#Attended)
+           - [Experienced](./MOM_Spec.md#Experienced)
+           - [Mastered](./MOM_Spec.md#Mastered)
+           - [Resumed](./MOM_Spec.md#Resumed)
+           - [Scored](./MOM_Spec.md#Scored)
+           - [Suspended](./MOM_Spec.md#Suspended)
+           - [Registered](./MOM_Spec.md#Registered)
       - [LRS storage requirements](./MOM_Spec.md#LRS-storage-requirements)
       - [TLA environment reporting requirements](./MOM_Spec.md#TLA-environment-reporting-requirements)
            - [Competency management function](./MOM_Spec.md#Competency-management-function)
@@ -1269,19 +1276,109 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >**Verb:**
 >>**id:** "https://w3id.org/xapi/tla/verbs/experienced", \
 >>**display:** "experienced",\
->>**definition:** ""
+>>**definition:** "Indicates the actor encountered a learning situation where a specific achievement or completion is not applicable"
 >
 >**Object:**
 >>**id:** "",\
 >>**definition:** 
 >>>**type:** 
 >>>>["https://w3id.org/xapi/tla/activity-types/activity", \
->>>>"https://w3id.org/xapi/tla/activity-types/assessment"],
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment"], \
 >>>**extensions:** "https://w3id.org/xapi/tla/extensions/instance"
 >>>>_This should be a pointer to the an actual session definition_
 >
 >**Result:**
 >>**duration:** RECOMMENDED
+
+<a name="mastered"></a>
+### Mastered
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/mastered", \
+>>**display:** "mastered",\
+>>**definition:** "Indicates the actor has achieved the highest level of comprehension or competency"
+>
+>**Object:**
+>>**id:** "",\
+>>**definition:** ""
+>>>**type:** 
+>>>>["https://w3id.org/xapi/tla/activity-types/credential", \
+>>>>"https://w3id.org/xapi/tla/activity-types/job_duty_gig"] \
+>
+>**Result:**
+>>**duration:** EXCLUDED
+
+<a name="resumed"></a>
+### Resumed
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/resumed", \
+>>**display:** "resumed",\
+>>**definition:** "Indicates the actor has continued or reopened a suspended learning activity"
+>
+>**Object:**
+>>**id:** "",\
+>>**definition:** ""
+>>>**type:** 
+>>>>["https://w3id.org/xapi/tla/activity-types/activity", \
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment"] \
+>
+>**Result:**
+>>**duration:** EXCLUDED
+
+<a name="scored"></a>
+### Scored
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/scored", \
+>>**display:** "scored",\
+>>**definition:** "Indicates the actor has been given a score on an assement after completion"
+>
+>**Object:**
+>>**id:** "",\
+>>**definition:** ""
+>>>**type:** 
+>>>>["https://w3id.org/xapi/tla/activity-types/activity", \
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment"] \
+>
+>**Result:**
+>>**duration:** RECOMMENDED \
+>>**score:** INCLUDED
+
+<a name="suspended"></a>
+### Suspended
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/suspended", \
+>>**display:** "suspended",\
+>>**definition:** "Indicates that the actor has temporarily halted an activity and will resume at a later time"
+>
+>**Object:**
+>>**id:** "",\
+>>**definition:** ""
+>>>**type:** 
+>>>>["https://w3id.org/xapi/tla/activity-types/activity", \
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment"] \
+>
+>**Result:**
+>>**duration:** RECOMMENDED
+>>> _This should be the amount of time spent in the activity before suspending_ \
+>>**score:** EXCLUDED
+
+<a name="registered"></a>
+### Registered
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/registered", \
+>>**display:** "registered",\
+>>**definition:** "Indicates that the actor has enrolled in a learning activity"
+>
+>**Object:**
+>>**id:** "",\
+>>**definition:** ""
+>>>**type:** 
+>>>>["https://w3id.org/xapi/tla/activity-types/activity", \
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment", \
+>>>>"https://w3id.org/xapi/tla/activity-types/job_duty_gig"] \
+>
+>**Result:**
+>>**duration:** EXCLUDED \
+>>**score:** EXCLUDED
 
 
 <a name="LRS-storage-requirements"></a>
