@@ -1247,7 +1247,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Result:** EXCLUDED
 
-<a name="attended"></a>
+<a name="Attended"></a>
 ### attended
 >**Verb:**
 >>**id:** "https://w3id.org/xapi/tla/verbs/attended", \
