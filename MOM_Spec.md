@@ -1247,8 +1247,8 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >
 >**Result:** EXCLUDED
 
-<a name="Attended"></a>
-### attended
+<a name="attended"></a>
+### Attended
 >**Verb:**
 >>**id:** "https://w3id.org/xapi/tla/verbs/attended", \
 >>**display:** "attended",\
@@ -1258,6 +1258,25 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**id:** "",\
 >>**definition:** 
 >>>**type:** "https://w3id.org/xapi/tla/activity-types/activity", \
+>>>**extensions:** "https://w3id.org/xapi/tla/extensions/instance"
+>>>>_This should be a pointer to the an actual session definition_
+>
+>**Result:**
+>>**duration:** RECOMMENDED
+
+<a name="experienced"></a>
+### Experienced
+>**Verb:**
+>>**id:** "https://w3id.org/xapi/tla/verbs/experienced", \
+>>**display:** "experienced",\
+>>**definition:** ""
+>
+>**Object:**
+>>**id:** "",\
+>>**definition:** 
+>>>**type:** 
+>>>>["https://w3id.org/xapi/tla/activity-types/activity", \
+>>>>"https://w3id.org/xapi/tla/activity-types/assessment"],
 >>>**extensions:** "https://w3id.org/xapi/tla/extensions/instance"
 >>>>_This should be a pointer to the an actual session definition_
 >
