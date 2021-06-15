@@ -1265,7 +1265,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>**id:** "",\
 >>**definition:** 
 >>>**type:** "https://w3id.org/xapi/tla/activity-types/activity", \
->>>**extensions:** "https://w3id.org/xapi/tla/extensions/instance" \
+>>>**extensions:** "https://w3id.org/xapi/tla/extensions/instance" 
 >>>>_This should be a pointer to the an actual session definition_
 >
 >**Result:**
@@ -1286,7 +1286,7 @@ Each verb in an xAPI statement determines which template to follow, correspondin
 >>>>"https://w3id.org/xapi/tla/activity-types/assessment"], 
 >>>
 >>>**extensions:** "https://w3id.org/xapi/tla/extensions/instance"
->>>>_This should be a pointer to the an actual session definition_ \
+>>>>_This should be a pointer to the an actual session definition_ 
 >
 >**Result:**
 >>**duration:** RECOMMENDED
