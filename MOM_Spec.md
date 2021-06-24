@@ -188,10 +188,10 @@ An instance of TLA level 1
 - Shall conform to the xAPI Profile Standard
 - Should conform to the cmi5 Specification (in regard to xAPI statements)
 - Shall implement general requirements as found in 5.1
-- Shall implement statements using the &quot;certified&quot; verb with all requirements fulfilled from 5.1.36
-- Should implement statements using the &quot;completed&quot; verb. If implemented, shall be done so with all requirements fulfilled from 5.1.3
-- Should implement statements using the &quot;passed&quot; verb. If implemented, shall be done so with all requirements fulfilled from 5.1.4
-- Should implement statements using the &quot;failed&quot; verb. If implemented, shall be done so with all requirements fulfilled from 5.1.5
+- Shall implement statements using the &quot;certified&quot; verb with all requirements fulfilled.
+- Should implement statements using the &quot;completed&quot; verb. If implemented, shall be done so with all requirements fulfilled.
+- Should implement statements using the &quot;passed&quot; verb. If implemented, shall be done so with all requirements fulfilled.
+- Should implement statements using the &quot;failed&quot; verb. If implemented, shall be done so with all requirements fulfilled.
 - Shall implement statements using the &quot;success&quot; result in at least one of statements that use the &quot;completed&quot;, &quot;passed&quot;, or &quot;failed&quot; verbs.
 - May implement statements with verbs found in section 5.1. If implemented, shall be done so with all requirements fulfilled from corresponding section in 5.1
 - May implement statements with verbs not found in this specification
@@ -204,17 +204,23 @@ An instance of TLA level 2
 
 - Shall follow requirements of all TLA level 1
 - Shall conform to the cmi5 Specification (in regard to xAPI statements)
-- Shall implement statements using the &quot;completed&quot; verb with all requirements fulfilled from 5.1.3
-- Shall implement statements using the &quot;passed&quot; verb with all requirements fulfilled from 5.1.4.
+- Shall implement statements using the &quot;completed&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;passed&quot; verb with all requirements fulfilled. 
 - Shall implement statements using the &quot;passed&quot; verb using the &quot;success&quot; result property if the object type is &quot;assessment&quot;
-- Shall implement statements using the &quot;failed&quot; verb with all requirements fulfilled from 5.1.5.
+- Shall implement statements using the &quot;failed&quot; verb with all requirements fulfilled.
 - Shall implement statements using the &quot;failed&quot; verb using the &quot;success&quot; result property if the object type is &quot;assessment&quot;
-- Shall implement statements using the &quot;launched&quot; verb with all requirements fulfilled from 5.1.2
-- Shall implement statements using the &quot;initialized&quot; verb with all requirements fulfilled from 5.1.9
-- Shall implement statements using the &quot;waived&quot; verb with all requirements fulfilled from 5.1.1
-- Shall implement statements using the &quot;satisfied&quot; verb with all requirements fulfilled from 5.1.6
-- Shall implement statements using the &quot;abandoned&quot; verb with all requirements fulfilled from 5.1.7
-- Shall implement statements using the &quot;terminated&quot; verb with all requirements fulfilled from 5.1.8
+- Shall implement statements using the &quot;launched&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;initialized&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;waived&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;satisfied&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;abandoned&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;terminated&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;attended&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;experienced&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;mastered&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;resumed&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;scored&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;suspended&quot; verb with all requirements fulfilled.
 
 <a name="Level3"></a>
 ## TLA conformance level 3
@@ -222,55 +228,56 @@ An instance of TLA level 3
 
 - Shall follow requirements of all TLA level 1-2
 - Shall implement authority in xAPI statements that use verbs that require an authoritative source, as defined in 5.1.
-- Shall implement statements using the &quot;assessed&quot; verb with all requirements fulfilled from 5.1.26
-- Shall implement statements using the &quot;contextualized&quot; verb with all requirements fulfilled from 5.1.27
-- Shall implement statements using the &quot;located&quot; verb with all requirements fulfilled from 5.1.28
-- Shall implement statements using the &quot;captured&quot; verb with all requirements fulfilled from 5.1.30
-- Shall implement statements using the &quot;asserted&quot; verb with all requirements fulfilled from 5.1.31
-- Shall implement statements using the &quot;validated&quot; verb with all requirements fulfilled from 5.1.32
-- Shall implement statements using the &quot;inferred&quot; verb with all requirements fulfilled from 5.1.33
-- Shall implement statements using the &quot;qualified&quot; verb with all requirements fulfilled from 5.1.34
-- Shall implement statements using the &quot;certified&quot; verb with all requirements fulfilled from 5.1.35
-- Shall implement statements using the &quot;verified&quot; verb with all requirements fulfilled from 5.1.36
-- Shall implement statements using the &quot;conferred&quot; verb with all requirements fulfilled from 5.1.37
+- Shall implement statements using the &quot;assessed&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;contextualized&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;located&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;captured&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;asserted&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;validated&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;inferred&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;qualified&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;certified&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;verified&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;conferred&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;registered&quot; verb with all requirements fulfilled.
 
 <a name="Level4"></a>
 ## TLA conformance level 4
 An instance of TLA level 4
 
 - Shall follow requirements of all TLA level 1-3
-- Shall implement statements using the &quot;organized&quot; verb with all requirements fulfilled from 5.1.11
-- Shall implement statements using the &quot;prioritized&quot; verb with all requirements fulfilled from 5.1.12
-- Shall implement statements using the &quot;curated&quot; verb with all requirements fulfilled from 5.1.13
-- Shall implement statements using the &quot;projected&quot; verb with all requirements fulfilled from 5.1.14
-- Shall implement statements using the &quot;recommended&quot; verb with all requirements fulfilled from 5.1.10
-- Shall implement statements using the &quot;planned&quot; verb with all requirements fulfilled from 5.1.15
-- Shall implement statements using the &quot;deselected&quot; verb with all requirements fulfilled from 5.1.16
-- Shall implement statements using the &quot;requested&quot; verb with all requirements fulfilled from 5.1.17
-- Shall implement statements using the &quot;approved&quot; verb with all requirements fulfilled from 5.1.18
-- Shall implement statements using the &quot;augmented&quot; verb with all requirements fulfilled from 5.1.19
-- Shall implement statements using the &quot;explored&quot; verb with all requirements fulfilled from 5.1.20
-- Shall implement statements using the &quot;clarified&quot; verb with all requirements fulfilled from 5.1.21
-- Shall implement statements using the &quot;directed&quot; verb with all requirements fulfilled from 5.1.22
-- Shall implement statements using the &quot;scheduled&quot; verb with all requirements fulfilled from 5.1.23
+- Shall implement statements using the &quot;organized&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;prioritized&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;curated&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;projected&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;recommended&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;planned&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;deselected&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;requested&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;approved&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;augmented&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;explored&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;clarified&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;directed&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;scheduled&quot; verb with all requirements fulfilled.
 
 <a name="Level5"></a>
 ## TLA conformance level 5
 An instance of TLA level 5
 
 - Shall follow requirements of all TLA level 1-4
-- Shall implement statements using the &quot;recruited&quot; verb with all requirements fulfilled from 5.1.38
-- Shall implement statements using the &quot;appraised&quot; verb with all requirements fulfilled from 5.1.39
-- Shall implement statements using the &quot;detailed&quot; verb with all requirements fulfilled from 5.1.40
-- Shall implement statements using the &quot;mobilized&quot; verb with all requirements fulfilled from 5.1.41
-- Shall implement statements using the &quot;employed&quot; verb with all requirements fulfilled from 5.1.42
-- Shall implement statements using the &quot;schooled&quot; verb with all requirements fulfilled from 5.1.43
-- Shall implement statements using the &quot;promoted&quot; verb with all requirements fulfilled from 5.1.44
-- Shall implement statements using the &quot;screened&quot; verb with all requirements fulfilled from 5.1.45
-- Shall implement statements using the &quot;selected&quot; verb with all requirements fulfilled from 5.1.46
-- Shall implement statements using the &quot;transitioned&quot; verb with all requirements fulfilled from 5.1.47
-- Shall implement statements using the &quot;released&quot; verb with all requirements fulfilled from 5.1.48
-- Shall implement statements using the &quot;restricted&quot; verb with all requirements fulfilled from 5.1.49
+- Shall implement statements using the &quot;recruited&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;appraised&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;detailed&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;mobilized&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;employed&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;schooled&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;promoted&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;screened&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;selected&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;transitioned&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;released&quot; verb with all requirements fulfilled.
+- Shall implement statements using the &quot;restricted&quot; verb with all requirements fulfilled.
 
 <a name="TLA-xAPI"></a>
 # TLA xAPI JSON-binding definition
@@ -1488,6 +1495,10 @@ An activity provider should send statements with the following verbs, as appropr
 - satisfied
 - terminated
 - initialized
+- attended
+- experienced
+- scored
+- suspended
 
 An activity provider should not send statements that do not contain the verbs stated in the previous requirement.
 
@@ -1510,6 +1521,8 @@ A human capital management system should send statements with the following verb
 - augmented
 - clarified
 - directed
+- resumed
+- registered
 
 A human capital management system should not send statements that do not contain the verbs stated in the previous requirement.
 
@@ -1559,6 +1572,12 @@ A learner-centric view of all verbs. Verbs here may appear to be passive to prov
 - **Requested** : Indicates the learner needed or demanded an object or another OICS or learner. Requested indicates a comment that is shared with peers as a group or a coach as a trainer. The request for coaching or help prompts users to respond giving them coaching credit. Can also include a request to take a class or do a course.
 - **Directed** : Indicates the learner was assigned a learning goal by an OICS.
 - **Approved** : Indicates an OICS approved for a requested experience for the given learner
+- **Attended** : Indicates that the actor is present at a virtual or physical event or activity.
+- **Experienced** : Indicates the actor encountered a learning situation where a specific achievement or completion is not applicable.
+- **Mastered** : Indicates the actor has achieved the highest level of comprehension or competency.
+- **Resumed** : Indicates the actor has continued or reopened a suspended learning activity.
+- **Scored** : Indicates the actor has received a numerical value related to their performance within a learning activity.
+- **Suspended** : Indicates that the actor has temporarily halted an activity and will resume at a later time.
 
 **TLA Level 3:**
 - **Assessed** : Indicates the learner completed assessments in a way that will cause a change in their authoritative learner state.
@@ -1570,6 +1589,7 @@ A learner-centric view of all verbs. Verbs here may appear to be passive to prov
 - **Qualified** : Indicates the learner meets all the requirements for a badge but hasn&#39;t been awarded the badge yet.
 - **Conferred** : Indicates the learner was given a badge by an OICS.
 - **Verified** : Indicates the learner had evidence of learning from a non-authoritative source verified as reliable data by an authoritative source.
+- **Registered** : Indicates that the actor has enrolled in a learning activity.
 
 **TLA Level 4:**
 - **Organized** : Indicates the learner filtered experience that aligns to a specific goal.
