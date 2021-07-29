@@ -1,4 +1,4 @@
-# Master Object Model Specification for the Total Learning Architure
+# Master Object Model Specification for the Total Learning Architecture
 
 **Abstract**: This Standard defines a controlled vocabulary and key processes to be followed when communicating learner data between activities, content, devices, systems, platforms, and organizational/institutional boundaries. It utilizes the IEEE Standard xAPI (9274.1.1) and the associated xAPI Profile standard (9274.3.1) to define how components of the Total Learning Architecture (TLA) communicate, store, and propagate learning information between computational and data assets located throughout the Future Learning Ecosystem. It provides a JSON binding of such data that is also conformant to the IEEE xAPI Profile Standard.
 
